@@ -31,3 +31,23 @@ prevBtn.onclick = () => {
 
     slides[slideNumber].classList.add('active');
 }
+
+
+
+
+// botao pop up
+function openPopup() {
+  var popup = document.getElementById('myPopup');
+  var overlay = document.getElementById('overlay');
+
+  popup.style.display = 'block';
+  overlay.style.display = 'block';
+}
+
+function closePopup() {
+  var popup = document.getElementById('myPopup');
+  var overlay = document.getElementById('overlay');
+
+  popup.style.display = 'none';
+  overlay.style.display = 'none';
+}

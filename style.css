@@ -19,11 +19,22 @@
     z-index: 100;
 }
 
-.logo{
+/* .logo{
     font-size: 30px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+} */
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#logo-brasil {
+    width: 70px;
+    height: 70px; 
+    margin-top: 17px;
 }
 
 .social-media{
@@ -203,13 +214,21 @@
     0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
-.right-info h3 {
+.right-info h3, h4{
     position: absolute;
     font-size: 60px;
     color: #fff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transform: translateY(150%);
     margin-left: 13px;
+}
+
+.right-info h4 {
+    font-size: 25px;
+    transform: translateY(530%);
+    margin-left: 15px;
+
+
 }
 
 .navigation{
@@ -268,3 +287,70 @@
 .navigation span:nth-child(2):hover i {
     color: #444;
 }
+
+  /* Estilos para o pop-up */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+    display: none; /* Inicia oculto */
+    color: white;
+}
+
+.popup h2 {
+    text-align: center;
+    margin-top: -2%;
+}
+
+.popup p {
+    display: flex;
+    font-size: 0.9em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Estilos para a sobreposição */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Define uma cor de fundo semitransparente */
+    z-index: 9998; /* Um nível abaixo do pop-up */
+    display: none; /* Inicia oculto */
+  }
+  
+
+
+
+
+
+  .closePopup{
+    background: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+
+  }
+
+  .closePopupIcon{
+    background: transparent;
+    color: rgb(189, 182, 182);
+    font-size: 35px;   
+    border-radius: 5px;
+    transition: .3s;
+    display: flex;
+  }
+
+  .closePopupIcon:hover{
+    color: #444;
+  }
