@@ -389,6 +389,12 @@
     font-size: 3em;
   }
 
+  .dados-contato{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 20px;
+  }
+
   .dados-contato ul{
     display: flex;
     flex-direction: row;
@@ -399,4 +405,11 @@
     display: flex;
     align-items: center;
     color: #fff;
+  }
+
+
+  .right-info-contato, .left-info-contato{
+    background-image: url('folhas-pretoebranco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
