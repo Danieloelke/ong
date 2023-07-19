@@ -363,7 +363,20 @@
   .contatos div div h1 {
     font-size: 4.5em;
     transform: translateY(-250%);
-    margin-top: 7px;
+    color: #fff;
+    text-shadow: 
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
   }
 
   .contatos div h1{
@@ -390,10 +403,10 @@
   }
 
   .dados-contato{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     padding: 15px;
     border-radius: 20px;
-    border:2px solid rgb(125, 123, 123);
+    border:1px solid rgb(125, 123, 123);
   }
 
   .dados-contato ul{
@@ -408,27 +421,17 @@
     color: #fff;
   }
 
-  .left-info-contato {
-      background: rgba(0, 0, 0, 0.9);
-    background: url('folhas-pretoebranco.jpg');
-  }
-  .right-info-contato{
-    background-image: url('folhas-pretoebranco.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
 .letra{
     color: #fff;
     transition: .15s;
 }
 
   .letraM:hover{
-    color: rgba(29, 85, 197, 0.5) ;
+    color: rgba(29, 85, 197, 0.7) ;
   }
   .letraB:hover{
-    color: rgba(244, 34, 34, 0.5) ;
+    color: rgba(244, 34, 34, 0.7) ;
   }
   .letraO:hover{
-    color: rgba(244, 153, 34, 0.5) ;
+    color: rgba(244, 153, 34, 0.7) ;
   }
