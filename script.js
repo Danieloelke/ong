@@ -35,19 +35,40 @@ prevBtn.onclick = () => {
 
 
 
-// botao pop up
-function openPopup() {
-  var popup = document.getElementById('myPopup');
+// botao pop up Quilombo
+function openPopupQuilombo() {
+  var popup = document.getElementById('myPopupQuilombo');
   var overlay = document.getElementById('overlay');
 
   popup.style.display = 'block';
   overlay.style.display = 'block';
 }
 
-function closePopup() {
-  var popup = document.getElementById('myPopup');
+function closePopupQuilombo() {
+  var popup = document.getElementById('myPopupQuilombo');
   var overlay = document.getElementById('overlay');
 
   popup.style.display = 'none';
   overlay.style.display = 'none';
 }
+
+
+// botao pop up Guaraqueçaba
+function openPopupGuara() {
+    var popup = document.getElementById('myPopupGuara');
+    var overlay = document.getElementById('overlay');
+  
+    popup.style.display = 'block';
+    overlay.style.display = 'block';
+  }
+  
+  function closePopupGuara() {
+    var popup = document.getElementById('myPopupGuara');
+    var overlay = document.getElementById('overlay');
+  
+    popup.style.display = 'none';
+    overlay.style.display = 'none';
+  }
+
+
+

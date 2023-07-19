@@ -26,15 +26,13 @@
         <a href="#">Quem Somos</a>
         <a href="#">Projetos</a>
         <a href="#">Fale Conosco</a>
+        <a href="#">Área do Cliente</a>
     </nav>
 </header>
 
 <section class="banner">
     <div class="slider">
-
-
-
-
+        <!-- Slide Quilombo -->
         <div class="slide active">
             <img src="africa.jpg" alt="china">
             <div class="left-info">
@@ -47,7 +45,7 @@
                          foi certificado como remanescente de quilombo 
                          pela Fundação Cultural Palmares.
                     </p>
-                    <button class="btn" onclick="openPopup()">Mais Informações</button>
+                    <button class="btn" onclick="openPopupQuilombo()">Mais Informações</button>
                 </div>
             </div>
             <div class="right-info">
@@ -56,39 +54,23 @@
                 <h4>Guaraqueçaba - Paraná</h4>
             </div>
 
-            <div class="overlay" id="overlay1"></div>
+            <div class="overlay" id="overlay"></div>
 
-            <div class="popup" id="myPopup">
-                <button class=" closePopup" onclick="closePopup()"><i class='bx bxs-x-square  closePopupIcon'></i></button>
+            <div class="popup" id="myPopupQuilombo">
+                <button class="closePopup closePopupQuilombo" onclick="closePopupQuilombo()"><i class='bx bxs-x-square closePopupIcon'></i></button>
                 <h2>Nossa História</h2><br>
                 <p>
                     O Quilombo do Rio Verde está localizado em Guaraqueçaba, município localizado no litoral do estado do Paraná, no Brasil. A comunidade remonta ao período da escravidão no Brasil, quando fugitivos e libertos buscavam refúgio e liberdade em áreas remotas e de difícil acesso, como a região da Mata Atlântica.<br><br>
-
-A história do Quilombo do Rio Verde remonta ao século XIX, quando um grupo de pessoas negras fugiu da escravidão nas fazendas e se estabeleceu na região, em meio à densa vegetação da Mata Atlântica e próximos aos rios e cachoeiras. Eles encontraram nesse local uma oportunidade de reconstruir suas vidas e manter sua cultura e tradições africanas.<br><br>
-
-Ao longo dos anos, a comunidade do Quilombo do Rio Verde foi crescendo e se desenvolvendo. Os quilombolas, descendentes desses primeiros habitantes, construíram casas, plantaram alimentos e criaram uma vida comunitária baseada na solidariedade e no trabalho coletivo. A agricultura de subsistência, a pesca e a coleta de produtos da floresta são atividades importantes para a sobrevivência da comunidade.<br><br>
-
-Apesar dos desafios históricos e das dificuldades enfrentadas, os quilombolas do Rio Verde mantiveram sua identidade cultural e lutaram pela preservação de suas terras e pelo reconhecimento de seus direitos. Em 2006, a comunidade recebeu o título de território quilombola, reconhecendo oficialmente sua ancestralidade, sua história e sua conexão com o local.<br><br>
-
-Hoje em dia, o Quilombo do Rio Verde recebe visitantes interessados em conhecer sua história, sua cultura e suas tradições. A comunidade realiza atividades de educação ambiental, turismo comunitário e valorização de seus saberes tradicionais. Além disso, o quilombo se envolve em projetos de preservação da natureza e da Mata Atlântica, buscando conciliar o desenvolvimento sustentável com a manutenção de suas tradições.<br><br>
-
-O Quilombo do Rio Verde é um exemplo vivo da resistência e da luta pela liberdade, além de representar um importante patrimônio cultural e histórico do Brasil. Sua história nos lembra da importância de valorizar e preservar as culturas tradicionais e de reconhecer os direitos das comunidades quilombolas, garantindo sua inclusão e o respeito à sua identidade.<br><br>
+                    A história do Quilombo do Rio Verde remonta ao século XIX, quando um grupo de pessoas negras fugiu da escravidão nas fazendas e se estabeleceu na região, em meio à densa vegetação da Mata Atlântica e próxim
+                    Ao longo dos anos, a comunidade do Quilombo do Rio Verde foi crescendo e se desenvolvendo. Os quilombolas, descendentes desses primeiros habitantes, construíram casas, plantaram alimentos e criaram uma vida comunitária baseada na solidariedade e no trabalho coletivo. A agricultura de subsistência, a pesca e a coleta de produtos da floresta são atividades importantes para a sobrevivência da comunidade.<br><br>
+                    Apesar dos desafios históricos e das dificuldades enfrentadas, os quilombolas do Rio Verde mantiveram sua identidade cultural e lutaram pela preservação de suas terras e pelo reconhecimento de seus direitos. Em 2006, a comunidade recebeu o título de território quilombola, reconhecendo oficialmente sua ancestralidade, sua história e sua conexão com o local.<br><br>
+                    Hoje em dia, o Quilombo do Rio Verde recebe visitantes interessados em conhecer sua história, sua cultura e suas tradições. A comunidade realiza atividades de educação ambiental, turismo comunitário e valorização de seus saberes tradicionais. Além disso, o quilombo se envolve em projetos de preservação da natureza e da Mata Atlântica, buscando conciliar o desenvolvimento sustentável com a manutenção de suas tradições.<br><br>
+                    O Quilombo do Rio Verde é um exemplo vivo da resistência e da luta pela liberdade, além de representar um importante patrimônio cultural e histórico do Brasil. Sua história nos lembra da importância de valorizar e preservar as culturas tradicionais e de reconhecer os direitos das comunidades quilombolas, garantindo sua inclusão e o respeito à sua identidade.<br><br>
                 </p>
             </div>
             
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
+        <!-- Slide Guaraqueçaba -->
         <div class="slide">
             <img src="brazil.jpg" alt="china">
             <div class="left-info">
@@ -99,36 +81,70 @@ O Quilombo do Rio Verde é um exemplo vivo da resistência e da luta pela liberd
                     <h3>Guaraqueçaba</h3>
                     <p>Em tupi-guarani, Guaraqueçaba significa "Lugar do Guará", 
                         uma ave de cor bem avermelhada que era abundante na região,
-                         mas hoje está quase em extinção. A colonização da região 
-                         começou com a chegada dos portugueses ao Paraná, por volta 
-                         de 1545.
+                        mas hoje está quase em extinção. A colonização da região 
+                        começou com a chegada dos portugueses ao Paraná, por volta 
+                        de 1545.
                     </p>
-                    <button class="btn" onclick="openPopup()">Mais Informações</button>
+                    <button class="btn" onclick="openPopupGuara()">Mais Informações</button>
                  </div>
             </div>
             <div class="right-info">
                 <h1>ueçaba</h1>
             </div>
         </div>
-
-        <div class="popup" id="myPopup">
-            <button class=" closePopup" onclick="closePopup()"><i class='bx bxs-x-square  closePopupIcon'></i></button>
+        <div class="overlay" id="overlay"></div>
+        <div class="popup" id="myPopupGuara">
+            <button class="closePopup closePopupGuara" onclick="closePopupGuara()"><i class='bx bxs-x-square  closePopupIcon'></i></button>
             <h2>Nossa História</h2><br>
             <p>
-                Em tupi-guarani, Guaraqueçaba significa "Lugar do Guará", 
-                uma ave de cor bem avermelhada que era abundante na região,
-                mas hoje está quase em extinção. A colonização da região 
-                começou com a chegada dos portugueses ao Paraná, por volta 
-                de 1545.  
+                Guaraqueçaba, onde a história encontra o mar. Desde tempos remotos,
+                 suas praias acolheram a chegada dos colonizadores e resistência dos 
+                 indígenas. <br>
+                 O comércio marítimo impulsionou seu crescimento, 
+                 enquanto a pesca e a agricultura sustentaram suas famílias. <br>
+                 Festividades religiosas encheram suas ruas de devoção e alegria. 
+                 Hoje, Guaraqueçaba preserva seu tesouro natural, com Mata Atlântica 
+                 exuberante e vida selvagem abundante. <br>
+                 Trilhas e observação de aves encantam os aventureiros, enquanto a cultura local envolve os visitantes. 
+                 Essa cidade cativa com sua igreja centenária e paisagens deslumbrantes. <br>
+                 Entre montanhas, rios e o mar, Guaraqueçaba conta uma história única que 
+                 ecoa na alma de cada visitante. Descubra esse refúgio encantador, onde a 
+                 natureza e a cultura se entrelaçam, e permita-se apaixonar-se pela magia 
+                 de Guaraqueçaba.  
             </p>
         </div>
-
     </div>
+    <!-- Fale Conosco -->
+    <div class="slide contatos">
+        <img src="china.jpg" alt="brasil">
+        <div class="left-info">
+            <div class="penetrate-blur">
+                <h1>Cont</h1>
+            </div>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1869.2263895859667!2d-48.24642828008814!3d-25.15304718223996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDA5JzExLjAiUyA0OMKwMTQnNDMuNyJX!5e1!3m2!1spt-BR!2sbr!4v1689795662993!5m2!1spt-BR!2sbr" width="450" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right-info">
+            <h1>atos</h1>
+            <div class="content dados-contato">
+                <ul>
+                    <li><i class='location bx bx-location-plus'></i></li>
+                    <li>Estrada do Batuva n°S/N | Localidade do Rio Verde <br>CEP:83.390-000 | Guaraqueçaba-Paraná</li>
+                </ul>
+                <ul>
+                    <li><i class='location bx bx-phone-incoming'></i></li>
+                    <li>(00)0 0000-0000 <br>(00)0 0000-0000</li>
+                </ul>
 
+                <ul>
+                    <li><i class='location bx bx-envelope' ></i></li>
+                    <li>quilomborioverde@gmail.com</li>
+                </ul>
 
-
-
-
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Botoêes de navegação -->
     <div class="navigation">
         <span class="prev-btn">
             <i class='bx bx-chevron-left'></i>
@@ -138,14 +154,6 @@ O Quilombo do Rio Verde é um exemplo vivo da resistência e da luta pela liberd
         </span>
     </div>
 </section>
-
-
-
-
-
-
-
-
     <script src="script.js"></script>
 </body>
 
