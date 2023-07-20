@@ -4,6 +4,8 @@ const slides = document.querySelectorAll('.slide');
 const numberOfSlides = slides.length;
 let slideNumber = 0;
 
+
+
 nextBtn.onclick = () => {
     slides.forEach((slide) => {
         slide.classList.remove('active');
@@ -81,3 +83,17 @@ function openPopupGuara() {
     }
   }
   
+
+  // selecionar secao
+  function selecionarSecao(secaoID) {
+    var secaoSelecionada = document.getElementById(secaoID);
+
+    // Remove a classe "active" de todas as seções com a classe "slide"
+    var todasAsSecoes = document.getElementsByClassName("slide");
+    for (var i = 0; i < todasAsSecoes.length; i++) {
+      todasAsSecoes[i].classList.remove("active");
+    }
+
+    // Adiciona a classe "active" somente na seção selecionada
+    secaoSelecionada.classList.add("active");
+  }
