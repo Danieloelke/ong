@@ -1,0 +1,8 @@
+body{
+    background-image: url('img-escura.jpg');
+}
+
+.login div {
+    width: 350px;
+    height: 400px;
+}
