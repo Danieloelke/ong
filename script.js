@@ -73,6 +73,28 @@ function openPopupGuara() {
   }
 
 
+// botao pop up Quem somos
+function openPopupQuemSomos() {
+  var popup = document.getElementById('myPopupQuemSomos');
+  var overlay = document.getElementById('overlay');
+
+  popup.style.display = 'block';
+  overlay.style.display = 'block';
+}
+
+function closePopupQuemSomos() {
+  var popup = document.getElementById('myPopupQuemSomos');
+  var overlay = document.getElementById('overlay');
+
+  popup.style.display = 'none';
+  overlay.style.display = 'none';
+}
+
+
+
+
+
+
 // altera conteudo do botao
   function alterarConteudo() {
     var botao = document.getElementById("botao-cadastro");
