@@ -71,4 +71,13 @@ function openPopupGuara() {
   }
 
 
-
+// altera conteudo do botao
+  function alterarConteudo() {
+    var botao = document.getElementById("botao-cadastro");
+  
+    // Verifica o conteúdo atual do botão
+    if (botao.innerHTML === "Cadastrar") {
+      botao.innerHTML = "<i style='color: rgb(91, 237, 61); font-size: 30px;' class='bx bx-check-circle'></i>";
+    }
+  }
+  
