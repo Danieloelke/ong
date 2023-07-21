@@ -106,6 +106,8 @@ function closePopupQuemSomos() {
   }
   
 
+
+  
   // selecionar secao
   function selecionarSecao(secaoID) {
     var secaoSelecionada = document.getElementById(secaoID);
@@ -142,6 +144,3 @@ function showSlides() {
   // Repete a função a cada 4 segundos
   setTimeout(showSlides, 4000);
 }
-
-// Inicia o slideshow
-showSlides();

@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quilombo Rv</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="quem-somos.css">
 </head>
 
 <body>
 
 <header class="header">
-    <a href="index.html" class="logo"><img id="logo-brasil" src="brasil-icon.png" alt="logo-brasil"></a>
+    <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
 
     <div class="social-media">
         <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -24,19 +23,19 @@
     </div>
 
     <nav class="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="#">Quem Somos</a>
+        <a onclick="selecionarSecao('secao3')">Inicio</a>
+        <a onclick="selecionarSecao('secao2')" href="#">Quem Somos</a>
         <a href="#">Projetos</a>
         <a onclick="selecionarSecao('secao1')">Fale Conosco</a>
-        <a href="login.html">Área do Cliente</a>
+        <a href="/html/login.html">Área do Cliente</a>
     </nav>
 </header>
 
 <section class="banner">
     <div class="slider">
         <!-- Slide Quilombo -->
-        <div class="slide active">
-            <img src="passaro-azul.jpg" alt="passaro-azul">
+        <div class="slide active" id="secao3">
+            <img src="/img/passaro-azul.jpg" alt="passaro-azul">
             <div class="left-info">
                 <div class="penetrate-blur">
                     <h1>Quilo</h1>
@@ -74,7 +73,7 @@
         </div>
         <!-- Slide Guaraqueçaba -->
         <div class="slide">
-            <img src="guaraquecaba2.jpg" alt="china">
+            <img src="/img/guaraquecaba2.jpg" alt="china">
             <div class="left-info">
                 <div class="penetrate-blur">
                     <h1>Guaraq</h1>
@@ -117,8 +116,8 @@
         </div>
     </div>
     <!-- Slide Quem somos -->
-    <div class="slide quem-somos">
-        <img src="canoas-1.jpg" alt="china">
+    <div class="slide quem-somos" id="secao2">
+        <img src="/img/canoas-1.jpg" alt="china">
         <div class="left-info">
             <div class="penetrate-blur">
                 <h1>Quem</h1>
@@ -130,29 +129,20 @@
                      preservam 99% dos 5.300 hectares de terra com orgulho e respeito à natureza. 
                      Um cativante exemplo de harmonia entre o ser humano e o meio ambiente, onde 
                      tradição e biodiversidade se entrelaçam em perfeita sintonia. Descubra o 
-                     encanto desse lugar único, uma fonte inspiradora de vida e história.
+                   encanto desse lugar único, uma fonte inspiradora de vida e história.
                 </p>
-                <button class="btn" onclick="openPopupGuara()">Mais Informações</button>
-             </div>
+                <a class="btn">Galeria</a>
+            </div>
         </div>
         <div class="right-info">
             <h1>Somos</h1>
         </div>
-    </div>
-    <div class="overlay" id="overlay"></div>
-    <div class="popup" id="myPopupQuemSomos">
-        <button class="closePopup closePopupQuemSomos" onclick="closePopupQuemSomos()"><i class='bx bxs-x-square  closePopupIcon'></i></button>
-        <h2>Nossa História</h2><br>
-        <p>
-            O Quilombo Rio Verde é um verdadeiro tesouro de preservação ambiental e cultural. Desde seu reconhecimento federal pela Fundação Palmares em 2006, a comunidade de aproximadamente 25 famílias tem sido um exemplo de resistência e sustentabilidade. Vivendo da agricultura de subsistência e venda do excedente, eles conseguem harmonizar o cuidado com a natureza e suas tradições.<br>
-            Em meio à exuberante Mata Atlântica, o quilombo é um oásis de biodiversidade e conservação, localizado na APA de Guaraqueçaba, no litoral do Paraná. Com seus 5.300 hectares, a maior parte desse território permanece intocado, protegendo inúmeras espécies vegetais e animais ameaçados.<br>
-            Ao longo dos anos, o Quilombo Rio Verde se tornou um destino inspirador para visitantes que buscam experiências autênticas e um mergulho na história e cultura quilombola. Sua história de resistência, harmonia com a natureza e preservação do patrimônio cultural continua a cativar e encantar a todos que têm o privilégio de conhecer essa comunidade única no coração da mata atlântica.<br>
-        </p>
+        </div>
     </div>
 </div>
     <!-- Fale Conosco -->
     <div class="slide contatos" id="secao1">
-        <img src="montanhas.jpg" alt="china">
+        <img src="/img/montanhas.jpg" alt="china">
         <div class="left-info left-info-contato">
             <div class="penetrate-blur">
                 <h1>Cont</h1>
@@ -175,7 +165,6 @@
                     <li><i class='location bx bx-envelope' ></i></li>
                     <li>quilomborioverde@gmail.com</li>
                 </ul>
-
             </div>
         </div>
     </div>
@@ -191,7 +180,7 @@
     </div>
 </section>
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
