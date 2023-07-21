@@ -119,3 +119,29 @@ function closePopupQuemSomos() {
     // Adiciona a classe "active" somente na seção selecionada
     secaoSelecionada.classList.add("active");
   }
+
+
+
+
+
+const images = ["brazil.jpg", "canoas-1.jpg", "guaraquecaba.jpg"];
+let slideIndex = 0;
+
+function showSlides() {
+  const slideshow = document.querySelector(".img-fundo");
+
+  // Atualiza o src da imagem para mostrar a próxima imagem no array
+  slideshow.src = images[slideIndex];
+
+  // Incrementa o índice da imagem e reinicia se necessário
+  slideIndex++;
+  if (slideIndex >= images.length) {
+    slideIndex = 0;
+  }
+
+  // Repete a função a cada 4 segundos
+  setTimeout(showSlides, 4000);
+}
+
+// Inicia o slideshow
+showSlides();
