@@ -43,7 +43,7 @@ html {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0; /* Removendo o espaçamento entre as fotos */
   max-width: 100%; /* Ocupar a largura total da página */
   margin: 0;
@@ -61,11 +61,6 @@ html {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: 0.2s;
-}
-
-.photo img:hover {
-  transform: scale(0.98);
 }
 
 .photo-content {
@@ -86,7 +81,71 @@ html {
 
 .arrow-title {
   color: white;
-  border: 2px solid white;
   border-radius: 100px;
   margin-top: 30px;
+  animation: moveUpDown 2s ease-in-out infinite alternate;
 }
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(15px);
+    }
+  }
+
+
+
+
+
+  .footer {
+    background-image: url("/img/canoas-1.jpg");
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-links li {
+    margin: 0 15px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .footer-links a:hover {
+    color: #3498db;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-icons a:hover {
+    color: #3498db;
+  }
