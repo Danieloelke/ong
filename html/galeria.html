@@ -2,45 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/galeria.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Document</title>
+    <link rel="stylesheet" href="galeria.html">
+    <title>Galeria de Fotos</title>
 </head>
 <body>
-    <header class="header">
-        <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
-    
-        <div class="social-media">
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.facebook.com/QuilomboRioVerde/"><i class='bx bxl-facebook' ></i></a>
-            <a href="https://contate.me/quilomborioverdeguara"><i class='bx bxl-whatsapp' ></i></a>
-            <a href="https://www.instagram.com/quilomborioverde/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='bx bxl-instagram' ></i></a>
-        </div>
-    
-        <nav class="navbar">
-            <a onclick="selecionarSecao('secao3')">Inicio</a>
-            <a onclick="selecionarSecao('secao2')" href="#">Quem Somos</a>
-            <a href="#">Projetos</a>
-            <a onclick="selecionarSecao('secao1')">Fale Conosco</a>
-            <a href="/html/login.html">Área do Cliente</a>
-        </nav>
-    </header>
-
-    <section class="galery">
-        <div class="titulo-galery">
-            <h1 >Galeria</h1>
+    <section class="intro">
+        <video autoplay muted loop id="background-video">
+            <source src="/highway-loop.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div class="intro-content">
+            <h1>Minha Galeria de Fotos</h1>
         </div>
     </section>
-
-    <section class="next-galery">
-        <h1>ola</h1>
+    <section class="gallery">
+        <div class="photo-grid">
+            <!-- Aqui vão as suas fotos -->
+        </div>
     </section>
-    
-
-
-
+    <script src="galeria.js"></script>
 </body>
 </html>
