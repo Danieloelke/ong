@@ -13,6 +13,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('/img/galeria/17.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #background-video {
@@ -100,11 +103,14 @@ html {
 
 
   .footer {
-    background-image: url("/img/canoas-1.jpg");
     background-size: cover;
     color: white;
     padding: 40px 0;
     text-align: center;
+    height: 200px;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/img/african.png');
+    background-size: cover;
   }
 
   .footer-logo {
