@@ -1,7 +1,6 @@
 
 // Supondo que você tenha uma array de fotos com informações
 const photos = [
-    { src: '', text: 'Foto 1 - Descrição' },
     { src: '../img/galeria/2.jpg', text: 'Foto 2 - Descrição' },
     { src: '../img/galeria/3.jpg', text: 'Foto 2 - Descrição' },
     { src: '../img/galeria/4.jpg', text: 'Foto 2 - Descrição' },
