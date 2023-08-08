@@ -155,3 +155,8 @@ html {
   .social-icons a:hover {
     color: #3498db;
   }
+
+  #copy, #credito{
+    margin-top: 18px;
+    font-size: .7em;
+  }
