@@ -157,6 +157,20 @@ html {
   }
 
   #copy, #credito{
-    margin-top: 18px;
+    margin-top: 15px;
     font-size: .7em;
   }
+
+  #credito-site{
+    font-size: .8em;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+  }
+
+  #credito-site:hover{
+    color: aqua;
+  }
+
+
