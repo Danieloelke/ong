@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
+        <a href="../index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
     
         <div class="social-media">
             <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -21,15 +21,28 @@
         </div>
     
         <nav class="navbar">
-            <a onclick="selecionarSecao('secao3')">Inicio</a>
-            <a onclick="selecionarSecao('secao2')" href="#">Quem Somos</a>
+            <a href="../index.html">Inicio</a>
+            <a href="#">Quem Somos</a>
             <a href="#">Projetos</a>
-            <a onclick="selecionarSecao('secao1')">Fale Conosco</a>
-            <a href="/html/login.html">Área do Cliente</a>
+            <a href="../index.html" onclick="selecionarSecao('secao1')">Fale Conosco</a>
+            <a href="login.html">Área do Cliente</a>
         </nav>
     </header>
+
     <section class="projetos">
-        
+        <div class="titulo">
+            <h1>Projetos</h1>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <img src="/img/brasil-icon.png" alt="">
+            </div>
+            <div class="container">
+                <img src="/img/brasil-icon.png" alt="">
+            </div>
+        </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
