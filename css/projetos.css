@@ -14,23 +14,26 @@ body{
 
 }
 
-.projetos {
+.projetos, .protecao-ambiental {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 130px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+
+.projetos{
+    margin-top: 130px;
 }
   
 .content{
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
 }
 
 .titulo{
@@ -90,7 +93,7 @@ body{
 }
 
 .tituloseg{
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 30px;
     color: #fff;
     text-shadow: 
@@ -114,3 +117,10 @@ body{
     width: 100%;
 }
 
+#img3{
+    background-image: url('/img/homem-campoverde-ia.jpg');
+
+}
+#img4{
+    background-image: url('/img/turismo-ia.jpg');
+}
