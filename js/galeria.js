@@ -1,22 +1,22 @@
 
 // Supondo que você tenha uma array de fotos com informações
 const photos = [
-    { src: '../img/galeria/1.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/2.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/3.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/4.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/5.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/6.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/7.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/8.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/9.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/10.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/11.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/12.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/13.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/14.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/15.jpg', text: 'Foto 2 - Descrição' },
-    { src: '../img/galeria/16.jpg', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/1.jpg', class:'exibe1', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/2.jpg', class:'exibe2', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/3.jpg', class:'exibe3', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/4.jpg', class:'exibe4', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/5.jpg', class:'exibe5', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/6.jpg', class:'exibe6', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/7.jpg', class:'exibe7', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/8.jpg', class:'exibe8', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/9.jpg', class:'exibe9', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/10.jpg', class:'exibe10', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/11.jpg', class:'exibe11', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/12.jpg', class:'exibe12', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/13.jpg', class:'exibe13', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/14.jpg', class:'exibe14', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/15.jpg', class:'exibe15', text: 'Foto 2 - Descrição' },
+    { src: '../img/galeria/16.jpg', class:'exibe16', text: 'Foto 2 - Descrição' },
     // Adicione mais objetos de foto aqui
 ];
 
@@ -37,4 +37,3 @@ photos.forEach(photo => {
 
     galleryContainer.appendChild(photoDiv);
 });
-

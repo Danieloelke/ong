@@ -174,3 +174,6 @@ body{
 
 
 
+.exibe1, .exibe2, .exibe3{
+    visibility: hidden;
+}
