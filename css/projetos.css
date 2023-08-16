@@ -3,19 +3,21 @@ html, body {
     padding: 0;
   }
  
+* {
+    box-sizing: border-box; /* Garante que o preenchimento e as bordas sejam incluídos na largura total */
+}
+  
 
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/img/pal-alazao.jpg');
-    background-size: contain;
-    backdrop-filter: blur(12px);
-    width: 100vw;
-    
-
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-.projetos, .protecao-ambiental, .nossa-area, .matrizes-3d{
+.projetos, .protecao-ambiental, .nossa-area, .matrizes-3d, body{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -25,21 +27,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('/img/pal-alazao.jpg');
 }
 
-.projetos{
-    margin-bottom: 100px;
-}
-
-.projetos{
-    margin-top: 130px;
-}
   
-.content{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-}
+
 
 .titulo{
     font-size: 70px;
@@ -98,7 +90,6 @@ body{
 }
 
 .tituloseg{
-    margin-top: 150px;
     font-size: 30px;
     color: #fff;
     text-shadow: 
@@ -178,6 +169,71 @@ body{
 
 
 
-.exibe1, .exibe2, .exibe3, .exibe4, .exibe5, .exibe6, .exibe7, .exibe8, .exibe9, .exibe10{
+.exibe1, .exibe2, .exibe3, .exibe4, .exibe5, .exibe6, .exibe7, .exibe8, .exibe9, .exibe10, .exibe11{
     visibility: hidden;
 }
+
+
+
+
+@media (max-width: 1920px) {
+    .projetos{
+        margin-top: 130px;
+    }
+
+    .tituloseg{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .protecao-ambiental, .nossa-area{
+        margin-bottom: -110px;
+    }
+
+    .matrizes-3d{
+        height: 1000px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .tituloseg{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .protecao-ambiental, .nossa-area{
+        margin-bottom: -250px;
+    }
+
+ 
+    .matrizes-3d{
+        height: 1000px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 999px) {
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        margin-bottom: 100px;
+    }
+
+}
+

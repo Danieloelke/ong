@@ -9,3 +9,4 @@ sr.reveal('.exibe7', {duration: 1150});
 sr.reveal('.exibe8', {duration: 1150});
 sr.reveal('.exibe9', {duration: 1150});
 sr.reveal('.exibe10', {duration: 1150});
+sr.reveal('.exibe11', {duration: 1150});
