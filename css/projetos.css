@@ -28,6 +28,10 @@ body{
 }
 
 .projetos{
+    margin-bottom: 100px;
+}
+
+.projetos{
     margin-top: 130px;
 }
   
@@ -94,7 +98,7 @@ body{
 }
 
 .tituloseg{
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 30px;
     color: #fff;
     text-shadow: 
@@ -174,6 +178,6 @@ body{
 
 
 
-.exibe1, .exibe2, .exibe3{
+.exibe1, .exibe2, .exibe3, .exibe4, .exibe5, .exibe6, .exibe7, .exibe8, .exibe9, .exibe10{
     visibility: hidden;
 }
