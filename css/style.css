@@ -425,12 +425,23 @@
     transition: .15s;
 }
 
+  .letraM{
+    color: red ;
+  }
+  .letraB{
+    color: yellow ;
+  }
+  .letraO{
+    color: black ;
+  }
+
   .letraM:hover{
-    color: rgba(29, 85, 197, 0.7) ;
+    color: white ;
   }
   .letraB:hover{
-    color: rgba(244, 34, 34, 0.7) ;
+    color: white ;
   }
   .letraO:hover{
-    color: rgba(244, 153, 34, 0.7) ;
+    color: white ;
   }
+
