@@ -427,12 +427,15 @@
 
   .letraM{
     color: red ;
+    transition: .2s;
   }
   .letraB{
     color: yellow ;
+    transition: .2s;
   }
   .letraO{
     color: black ;
+    transition: .2s;
   }
 
   .letraM:hover{
