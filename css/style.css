@@ -426,15 +426,15 @@
 }
 
   .letraM{
-    color: red ;
+    color: rgba(255, 0, 0, 0.7) ;
     transition: .2s;
   }
   .letraB{
-    color: yellow ;
+    color: rgba(255, 255, 0, 0.7) ;
     transition: .2s;
   }
   .letraO{
-    color: black ;
+    color: rgba(0, 0, 0, 0.7) ;
     transition: .2s;
   }
 
