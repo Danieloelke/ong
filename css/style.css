@@ -209,19 +209,13 @@
 
 .right-info h3, h4{
     position: absolute;
-    font-size: 60px;
     color: #fff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transform: translateY(150%);
     margin-left: 13px;
 }
 
 .right-info h4 {
-    font-size: 25px;
-    transform: translateY(530%);
     margin-left: 15px;
-
-
 }
 
 .navigation{
@@ -455,6 +449,14 @@
     width: 100px;
     height: 100px;
   }
+
+  .right-info h3, h4{
+    transform: translateY(150%);
+    font-size: 60px;
+  }
+  .right-info h4 {
+    transform: translateY(530%);
+  }
 }
 
 
@@ -499,6 +501,15 @@
 }
 
 @media (max-width: 768px) {
+  .right-info h3{
+    transform: translateY(-600%);
+    font-size: 1.5em;
+  }
+  .right-info h4 {
+    transform: translateY(-220%);
+    font-size: 1em;
+  }
+
   .logo{
     visibility: hidden;
   }
