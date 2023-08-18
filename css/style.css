@@ -19,10 +19,7 @@
     z-index: 100;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-}
+
 
 #logo-brasil {
     width: 70px;
@@ -454,6 +451,10 @@
     font-size: 150px;
   }
 
+  .logo{
+    width: 100px;
+    height: 100px;
+  }
 }
 
 
@@ -498,11 +499,16 @@
 }
 
 @media (max-width: 768px) {
+  .logo{
+    width: 0px;
+    height: 0px;
+  }
+
   .right-info h1 {
-    font-size: 90px;
+    font-size: 70px;
   }
   .penetrate-blur h1 {
-    font-size: 90px;
+    font-size: 70px;
   }
 
   .menu-toggle {
