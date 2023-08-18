@@ -446,7 +446,7 @@
   }
 
 
-@media (max-width: 1900px) {
+@media (max-width: 1920px) {
   .right-info h1 {
     font-size: 150px;
   }
@@ -498,6 +498,13 @@
 }
 
 @media (max-width: 768px) {
+  .right-info h1 {
+    font-size: 20px;
+  }
+  .penetrate-blur h1 {
+    font-size: 20px;
+  }
+
   .menu-toggle {
       display: block;
   }
@@ -506,9 +513,8 @@
       display: none;
   }
 
-
-
   .menu-toggle input:checked ~ .menu {
       display: block;
   }
+
 }
