@@ -58,7 +58,7 @@
 .social-media a:hover i {
     color: #444;
 }
-/*
+
 .navbar a {
     font-size: 18px;
     color: #fff;
@@ -69,7 +69,7 @@
     transition: .2s;
     cursor: pointer;
 }
-*/
+
 .navbar a:hover{
     color: rgb(126, 232, 129);
 }
@@ -438,7 +438,7 @@
   }
 
 
-@media (max-width: 1920px) {
+@media (max-width: 2560px) {
   .right-info h1 {
     font-size: 150px;
   }
@@ -463,79 +463,3 @@
 
 
 
-
-.menu-toggle {
-  display: none;
-}
-
-.menu-toggle label {
-  display: block;
-  cursor: pointer;
-}
-
-.menu-toggle .menu-icon {
-  font-size: 24px;
-  margin: 10px;
-}
-
-.menu {
-  display: none;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  margin: 0;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-  display: block;
-  padding: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.menu-toggle input:checked ~ .menu {
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .right-info h3{
-    transform: translateY(-600%);
-    font-size: 1.5em;
-  }
-  .right-info h4 {
-    transform: translateY(-350%);
-    font-size: 1em;
-  }
-
-  .logo{
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
-  }
-
-  .right-info h1 {
-    font-size: 50px;
-    margin-top: -450px;
-  }
-  .penetrate-blur h1 {
-    font-size: 50px;
-    margin-top: -450px;
-  }
-
-  .menu-toggle {
-      display: block;
-  }
-
-  .menu-toggle input {
-      display: none;
-  }
-
-  .menu-toggle input:checked ~ .menu {
-      display: block;
-  }
-
-}
