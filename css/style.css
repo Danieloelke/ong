@@ -32,8 +32,6 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
     background: transparent;
     border: 2px solid #fff;
     border-radius: 6px;
@@ -423,6 +421,11 @@
 
 
 @media (max-width: 2560px) {
+  .social-media a {
+    width: 40px;
+    height: 40px;
+  }
+
   .container .left-info{
     bottom: 8px;
     left: 10%;
@@ -509,9 +512,13 @@
 
 
 @media (max-width: 1200px) {
+  .social-media a {
+    width: 30px;
+    height: 30px;
+  }
 
 .social-media{
-  margin-left: -18px;
+  margin-left: -1px;
 }  
 .content {
   bottom: 100px;
