@@ -133,7 +133,7 @@
 
 .content p {
     font-size: 16px;
-  padding-right: 10px;
+    padding-right: 10px;
     text-align: justify;
 }
 
@@ -422,6 +422,10 @@
 
 
 @media (max-width: 2560px) {
+  .container .left-info{
+    bottom: 8px;
+    left: 10%;
+  }
   .menu ul li a {
     font-size: 18px;
     color: #fff;
@@ -504,6 +508,10 @@
 
 
 @media (max-width: 1200px) {
+.content {
+  bottom: 100px;
+  left: 5%;
+}
   .logo{
     width: 0px;
     height: 0px;
@@ -528,8 +536,8 @@
   font-size: 25px;
 }
 .right-info h4 {
-  transform: translateY(-1150%);
-  font-size: 12px;
+  transform: translateY(-1100%);
+  font-size: 13px;
 }
 
 
