@@ -6,7 +6,7 @@
     text-align: center;
     height: 200px;
     width: 100vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/img/african.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/african.png');
     background-size: cover;
   }
 

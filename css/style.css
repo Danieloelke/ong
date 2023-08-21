@@ -451,12 +451,13 @@
     height: 100px;
   }
 
-  .right-info h3, h4{
+  .right-info h3{
     transform: translateY(150%);
     font-size: 60px;
   }
   .right-info h4 {
-    transform: translateY(530%);
+    transform: translateY(560%);
+    font-size: 24.5px;
   }
 }
 
