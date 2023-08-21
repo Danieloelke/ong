@@ -480,6 +480,29 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1200px) {
   .logo{
     width: 0px;
@@ -490,6 +513,27 @@
     width: 0px;
     height: 0px; 
 }
+
+.right-info h1 {
+  font-size: 60px;
+  margin-top: -500px;
+}
+.penetrate-blur h1 {
+  font-size: 60px;
+  margin-top: -500px;
+}
+
+.right-info h3{
+  transform: translateY(-670%);
+  font-size: 25px;
+}
+.right-info h4 {
+  transform: translateY(-1150%);
+  font-size: 12px;
+}
+
+
+
 
   .container-nav{
     height: 100%;
