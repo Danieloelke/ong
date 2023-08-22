@@ -6,7 +6,7 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .projetos, .protecao-ambiental, .nossa-area, .matrizes-3d, body{
