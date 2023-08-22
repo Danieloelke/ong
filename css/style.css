@@ -1,424 +1,404 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 5%;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    z-index: 100;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 5%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 100;
 }
 
-
-
-
-
-.social-media{
-    margin: 0 auto 0 50px;
-
+.social-media {
+  margin: 0 auto 0 50px;
 }
 
 .social-media a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-    border: 2px solid #fff;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-right: 10px;
-    transition: .5s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.5s;
 }
 
-.social-media a:hover{
-    background: #fff;
+.social-media a:hover {
+  background: #fff;
 }
 
 .social-media a i {
-    font-size: 20px;
-    color: #fff;
-    transition: .5s;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .social-media a:hover i {
-    color: #444;
+  color: #444;
 }
 
-
-
-.banner{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .slider .slide {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
 }
 
 .slide img {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    pointer-events: none ;
-    opacity: 0;
-    transition: .3s ease;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.3s ease;
 }
 
-.slide.active img{
-    opacity: 1;
+.slide.active img {
+  opacity: 1;
 }
 
 .slide .left-info {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    transform: translateX(-100%);
-    transition: 0s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: 0s;
 }
 
 .slide.active .left-info {
-    transform: translateX(0);
-    z-index: 1;
-    transition: .5s ease;
+  transform: translateX(0);
+  z-index: 1;
+  transition: 0.5s ease;
 }
 
 .left-info .penetrate-blur {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, .1);
-    backdrop-filter: blur(20px);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    -webkit-mask: linear-gradient(#000 0 0),
-    linear-gradient(#000 0 0);
-    -webkit-mask-clip: text, padding-box;
-    -webkit-mask-composite: xor;
-    padding-right: 5px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  -webkit-mask-clip: text, padding-box;
+  -webkit-mask-composite: xor;
+  padding-right: 5px;
 }
 
 .penetrate-blur h1 {
-    text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-.left-info .content{
-    position: absolute;
-    bottom: 8px;
-    left: 10%;
-    color: #fff;
+.left-info .content {
+  position: absolute;
+  bottom: 8px;
+  left: 10%;
+  color: #fff;
 }
 
 .content h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .content p {
-    font-size: 16px;
-    padding-right: 10px;
-    text-align: justify;
+  font-size: 16px;
+  padding-right: 10px;
+  text-align: justify;
 }
 
 .content .btn {
-    display: inline-block;
-    padding: 13px 18px;
-    background: #fff;
-    border: 2px solid #fff;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
-    color: #444;
-    text-decoration: none;
-    font-weight: 600;
-    transition: .5s;
+  display: inline-block;
+  padding: 13px 18px;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #444;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5s;
 }
 
 .content .btn:hover {
-    background: transparent;
-    color: #fff;
+  background: transparent;
+  color: #fff;
 }
 
 .slide .right-info {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    transform: translate(100%);
-    transition: 0s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transform: translate(100%);
+  transition: 0s;
 }
 
 .slide.active .right-info {
-    transform: translate(0);
-    z-index: 1;
-    transition: .5s ease;
+  transform: translate(0);
+  z-index: 1;
+  transition: 0.5s ease;
 }
 
 .right-info h1 {
-    color: #fff;
-    text-shadow: 
-    0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    0 6px 1px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(0, 0, 0, 0.1),
-    0 1px 3px rgba(0, 0, 0, 0.3),
-    0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25),
-    0 10px 10px rgba(0, 0, 0, 0.2),
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
     0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
-.right-info h3, h4{
-    position: absolute;
-    color: #fff;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-left: 13px;
+.right-info h3,
+h4 {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 13px;
 }
 
 .right-info h4 {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
-.navigation{
-    display: flex;
-    position: absolute;
-    bottom: 8%;
-    right: 5%;
-    z-index: 99;
+.navigation {
+  display: flex;
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  z-index: 99;
 }
 
-.navigation span{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 50px;
-    background: #fff;
-    border: 2px solid #fff;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    margin-left: 25px;
-    transition: .5s;
+.navigation span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-left: 25px;
+  transition: 0.5s;
 }
 
-.navigation span:nth-child(1){
-    background: transparent;
+.navigation span:nth-child(1) {
+  background: transparent;
 }
 
-.navigation span:nth-child(1):hover{
-    background: #fff;
-} 
-
-.navigation span:nth-child(2){
-    background: transparent;
+.navigation span:nth-child(1):hover {
+  background: #fff;
 }
 
-.navigation span:nth-child(2):hover{
-    background: #fff;
+.navigation span:nth-child(2) {
+  background: transparent;
+}
+
+.navigation span:nth-child(2):hover {
+  background: #fff;
 }
 
 .navigation span i {
-    font-size: 45px;
-    color: #444;
+  font-size: 45px;
+  color: #444;
 }
 
 .navigation span:nth-child(1) i {
-    color: #fff;
+  color: #fff;
 }
 .navigation span:nth-child(1):hover i {
-    color: #444;
+  color: #444;
 }
 .navigation span:nth-child(2) i {
-    color: #fff;
+  color: #fff;
 }
 .navigation span:nth-child(2):hover i {
-    color: #444;
+  color: #444;
 }
 
-  /* Estilos para o pop-up */
+/* Estilos para o pop-up */
 .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70vw;
-    height: 70vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    z-index: 9999;
-    display: none; /* Inicia oculto */
-    color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 9999;
+  display: none; /* Inicia oculto */
+  color: white;
+  overflow-y: scroll;
 }
 
 .popup h2 {
-    text-align: center;
-    margin-top: -2%;
+  text-align: center;
+  margin-top: -2%;
 }
 
 .popup p {
-    display: flex;
-    font-size: 0.9em;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* Estilos para a sobreposição */
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Define uma cor de fundo semitransparente */
-    z-index: 9998; /* Um nível abaixo do pop-up */
-    display: none; /* Inicia oculto */
-  }
-  
-  .closePopup{
-    background: transparent;
-    border: none;
-    width: 25px;
-    height: 25px;
-
-  }
-
-  .closePopupIcon{
-    background: transparent;
-    color: rgb(189, 182, 182);
-    font-size: 35px;   
-    border-radius: 5px;
-    transition: .3s;
-    display: flex;
-  }
-
-  .closePopupIcon:hover{
-    color: rgb(220, 76, 76);
-  }
-
-
-  #myPopupQuilombo p {
-    font-size: 0.95em;
-  }
-
-  #myPopupGuara p{
-    margin-top: 7%;
-    font-size: 1.2em;
-  }
-
-  .contatos div div h1 {
-    font-size: 4.5em;
-    transform: translateY(-250%);
-    color: #fff;
-    text-shadow: 
-    0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    0 6px 1px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(0, 0, 0, 0.1),
-    0 1px 3px rgba(0, 0, 0, 0.3),
-    0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25),
-    0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15);
-  }
-
-  .contatos div h1{
-    font-size: 4.5em;
-    transform: translateY(-250%);
-  }
-
-  .contatos-maps {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .maps {
-    border: 1px solid #fff;
-    border-radius: 10px;
-    position: fixed;
-    z-index: 9999;
-    margin-top: 35%;
-    margin-left: 15%;
-  } 
-
-  .location {
-    font-size: 3em;
-  }
-
-  .dados-contato{
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-radius: 20px;
-    border:1px solid rgb(125, 123, 123);
-  }
-
-  .dados-contato ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-  }
-
-  .dados-contato ul li {
-    display: flex;
-    align-items: center;
-    color: #fff;
-  }
-
-.letra{
-    color: #fff;
-    transition: .15s;
+  display: flex;
+  font-size: 0.9em;
+  align-items: center;
+  justify-content: center;
 }
 
-  .letraM{
-    color: rgba(255, 0, 0, 0.7) ;
-    transition: .2s;
-  }
-  .letraB{
-    color: rgba(255, 255, 0, 0.7) ;
-    transition: .2s;
-  }
-  .letraO{
-    color: rgba(0, 0, 0, 0.7) ;
-    transition: .2s;
-  }
+/* Estilos para a sobreposição */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Define uma cor de fundo semitransparente */
+  z-index: 9998; /* Um nível abaixo do pop-up */
+  display: none; /* Inicia oculto */
+}
 
-  .letraM:hover{
-    color: white ;
-  }
-  .letraB:hover{
-    color: white ;
-  }
-  .letraO:hover{
-    color: white ;
-  }
+.closePopup {
+  background: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
 
+.closePopupIcon {
+  background: transparent;
+  color: rgb(189, 182, 182);
+  font-size: 35px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: flex;
+}
+
+.closePopupIcon:hover {
+  color: rgb(220, 76, 76);
+}
+
+#myPopupQuilombo p {
+  font-size: 0.95em;
+}
+
+#myPopupGuara p {
+  margin-top: 7%;
+  font-size: 1.2em;
+}
+
+.contatos div div h1 {
+  font-size: 4.5em;
+  transform: translateY(-250%);
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contatos div h1 {
+  font-size: 4.5em;
+  transform: translateY(-250%);
+}
+
+.contatos-maps {
+  display: flex;
+  flex-direction: column;
+}
+
+.maps {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 9999;
+  margin-top: 35%;
+  margin-left: 15%;
+}
+
+.location {
+  font-size: 3em;
+}
+
+.dados-contato {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(125, 123, 123);
+}
+
+.dados-contato ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.dados-contato ul li {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.letra {
+  color: #fff;
+  transition: 0.15s;
+}
+
+.letraM {
+  color: rgba(255, 0, 0, 0.7);
+  transition: 0.2s;
+}
+.letraB {
+  color: rgba(255, 255, 0, 0.7);
+  transition: 0.2s;
+}
+.letraO {
+  color: rgba(0, 0, 0, 0.7);
+  transition: 0.2s;
+}
+
+.letraM:hover {
+  color: white;
+}
+.letraB:hover {
+  color: white;
+}
+.letraO:hover {
+  color: white;
+}
 
 @media (max-width: 2560px) {
   .social-media a {
@@ -426,7 +406,7 @@
     height: 40px;
   }
 
-  .container .left-info{
+  .container .left-info {
     bottom: 8px;
     left: 10%;
   }
@@ -437,24 +417,24 @@
     font-weight: 500;
     margin-left: 10px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: .2s;
+    transition: 0.2s;
     cursor: pointer;
-}
-.menu ul{
-  display: flex;
-  flex-direction: row;
-}
-.menu ul li{
-  list-style-type: none;
-}
+  }
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu ul li {
+    list-style-type: none;
+  }
 
-.menu ul li a:hover{
+  .menu ul li a:hover {
     color: rgb(126, 232, 129);
-}
+  }
 
-#checkbox-menu{
-  visibility: hidden;
-}
+  #checkbox-menu {
+    visibility: hidden;
+  }
 
   .right-info h1 {
     font-size: 150px;
@@ -463,18 +443,18 @@
     font-size: 150px;
   }
 
-  .logo{
+  .logo {
     width: 100px;
     height: 100px;
   }
 
   #logo-brasil {
     width: 70px;
-    height: 70px; 
+    height: 70px;
     margin-top: 17px;
-}
+  }
 
-  .right-info h3{
+  .right-info h3 {
     transform: translateY(150%);
     font-size: 60px;
   }
@@ -482,34 +462,7 @@
     transform: translateY(560%);
     font-size: 24.5px;
   }
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1260px) {
   .social-media a {
@@ -517,50 +470,44 @@
     height: 30px;
   }
 
-.social-media{
-  margin-left: -1px;
-}  
-.content {
-  bottom: 100px;
-  left: 5%;
-}
-  .logo{
+  .social-media {
+    margin-left: -1px;
+  }
+  .content {
+    bottom: 100px;
+    left: 5%;
+  }
+  .logo {
     width: 0px;
     height: 0px;
   }
 
   #logo-brasil {
     width: 0px;
-    height: 0px; 
-}
+    height: 0px;
+  }
 
-
-
-
-
-
-
-  .container-nav{
+  .container-nav {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  #checkbox-menu{
+
+  #checkbox-menu {
     position: absolute;
     opacity: 0;
   }
-  
-  label{
+
+  label {
     cursor: pointer;
     position: relative;
     display: block;
     height: 22px;
     width: 30px;
   }
-  
-  label span{
+
+  label span {
     position: absolute;
     display: block;
     height: 5px;
@@ -569,33 +516,33 @@
     background: #ffffff;
     transition: 0.25s ease-in-out;
   }
-  
-  label span:nth-child(1){
+
+  label span:nth-child(1) {
     top: 0;
   }
-  
-  label span:nth-child(2){
+
+  label span:nth-child(2) {
     top: 8px;
   }
-  
-  label span:nth-child(3){
+
+  label span:nth-child(3) {
     top: 16px;
   }
-  
-  #checkbox-menu:checked + label span:nth-child(1){
+
+  #checkbox-menu:checked + label span:nth-child(1) {
     transform: rotate(-45deg);
     top: 8px;
   }
-  
-  #checkbox-menu:checked + label span:nth-child(2){
+
+  #checkbox-menu:checked + label span:nth-child(2) {
     opacity: 0;
   }
-  
-  #checkbox-menu:checked + label span:nth-child(3){
+
+  #checkbox-menu:checked + label span:nth-child(3) {
     transform: rotate(45deg);
-    top:8px;
+    top: 8px;
   }
-  
+
   /* Estilo do menu */
   .menu {
     position: absolute;
@@ -605,14 +552,14 @@
     height: 200px;
     border-radius: 20px;
     margin-top: 100px;
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
     transition: 0.3s ease-in-out;
   }
-  
+
   .menu ul {
     display: flex;
     flex-direction: column;
@@ -620,36 +567,51 @@
     padding: 0;
     margin: 0;
   }
-  
+
   .menu li {
     margin-bottom: 15px;
   }
-  
+
   .menu a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     transition: color 0.2s;
   }
-  
+
   .menu a:hover {
     color: #f16234;
   }
-  
+
   /* Exibir o menu quando o checkbox está marcado */
   #checkbox-menu:checked ~ .menu {
     right: 0;
   }
-  
 }
 
-  @media (max-width: 1053px){
-    .penetrate-blur_quemSomos h1, .right-info_quemSomos h1{
-      font-size: 100px;
-    }
+@media (max-width: 1053px) {
+  .right-info h1 {
+    font-size: 100px;
+    margin-top: -500px;
+  }
+  .penetrate-blur h1 {
+    font-size: 100px;
+    margin-top: -500px;
   }
 
-
+  .right-info h3 {
+    transform: translateY(-670%);
+    font-size: 25px;
+  }
+  .right-info h4 {
+    transform: translateY(-1100%);
+    font-size: 13px;
+  }
+  .penetrate-blur_quemSomos h1,
+  .right-info_quemSomos h1 {
+    font-size: 100px;
+  }
+}
 
 @media (max-width: 768px) {
   .right-info h1 {
@@ -661,7 +623,7 @@
     margin-top: -500px;
   }
 
-  .right-info h3{
+  .right-info h3 {
     transform: translateY(-670%);
     font-size: 25px;
   }
@@ -670,7 +632,8 @@
     font-size: 13px;
   }
 
-  .penetrate-blur_quemSomos h1, .right-info_quemSomos h1{
+  .penetrate-blur_quemSomos h1,
+  .right-info_quemSomos h1 {
     font-size: 50px;
   }
 }
