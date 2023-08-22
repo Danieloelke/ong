@@ -46,7 +46,6 @@ html {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0; /* Removendo o espaçamento entre as fotos */
   max-width: 100%; /* Ocupar a largura total da página */
   margin: 0;
@@ -102,3 +101,31 @@ html {
 
 
 
+@media (max-width: 2560px){
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+@media (max-width: 1000px){
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+@media (max-width: 768px){
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+@media (max-width: 500px){
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
