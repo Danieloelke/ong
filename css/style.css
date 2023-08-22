@@ -605,10 +605,12 @@ h4 {
   .right-info h3 {
     transform: translateY(-670%);
     font-size: 25px;
+    user-select: none;
   }
   .right-info h4 {
     transform: translateY(-1100%);
     font-size: 13px;
+    user-select: none;
   }
   .penetrate-blur_quemSomos h1,
   .right-info_quemSomos h1 {
@@ -636,10 +638,12 @@ h4 {
   .right-info h3 {
     transform: translateY(-670%);
     font-size: 25px;
+    user-select: none;
   }
   .right-info h4 {
     transform: translateY(-1100%);
     font-size: 13px;
+    user-select: none;
   }
 
   .penetrate-blur_quemSomos h1,
