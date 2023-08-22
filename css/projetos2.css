@@ -54,6 +54,7 @@ body{
     color: white;
     text-align: center;
     width: 100%;
+    margin-top: 20px;
 }
 
 .container p{
@@ -128,12 +129,16 @@ body{
     }
     .container{
         position: relative;
-        width: 95%;
+        width: 90%;
         height: 550px;
     }
 
     .img-content{
         width: 94%;
         height: 250px;
+    }
+    .tituloseg_protecao-ambiental{
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 }
