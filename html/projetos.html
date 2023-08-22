@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="../index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
+        <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
     
         <div class="social-media">
             <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -22,13 +22,26 @@
             <a href="https://www.instagram.com/quilomborioverde/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='bx bxl-instagram' ></i></a>
         </div>
     
-        <nav class="navbar">
-            <a onclick="selecionarSecao('secao3')" href="/index.html">Inicio</a>
-            <a onclick="selecionarSecao('secao2')" href="/index.html">Quem Somos</a>
-            <a href="/html/projetos.html">Projetos</a>
-            <a onclick="selecionarSecao('secao1')">Fale Conosco</a>
-            <a href="/html/login.html">Área do Cliente</a>
-        </nav>
+    
+        <div class="container-nav">
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <nav class="menu">
+              <ul>
+                <li><a onclick="selecionarSecao('secao3')">Inicio</a></li>
+                <li><a onclick="selecionarSecao('secao2')">Quem Somos</a></li>
+                <li><a href="/html/projetos.html">Projetos</a></li>
+                <li><a onclick="selecionarSecao('secao1')">Fale Conosco</a></li>
+                <li><a href="login.html">Área do Cliente</a></li>
+              </ul>
+            </nav>
+        </div>
+        
+        
     </header>
 
     <section class="projetos">
