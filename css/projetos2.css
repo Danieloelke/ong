@@ -61,7 +61,7 @@ body{
     color: white;
     text-align: justify;
     padding: 25px;
-    height: 10%;
+    height: 50%;
 }
 
 .img-content{
@@ -92,6 +92,7 @@ body{
 @media (max-width: 2560px) {
     .titulo h1{
         font-size: 60px;
+        margin-top: 5%;
     }
     .content{
         display: flex;
@@ -103,12 +104,17 @@ body{
         position: relative;
         width: 430px;
         height: 550px;
+
         margin-left: 50px;
         margin-right: 50px;
     }
     .img-content{
         width: 95%;
         height: 280px;
+    }
+    .tituloseg_protecao-ambiental{
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 
 }
@@ -130,7 +136,10 @@ body{
     .container{
         position: relative;
         width: 90%;
-        height: 550px;
+        height: 600px;
+    }
+    .container p{
+        overflow-y: scroll;
     }
 
     .img-content{
