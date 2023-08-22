@@ -93,24 +93,35 @@ body{
     box-shadow: 10px 10px 20px rgb(32, 32, 32);
 }
 
+.arvore-3d{
+    border-radius: 20PX;
+    box-shadow: 10px 10px 20px rgb(32, 32, 32);
+    margin-left: 20PX;
+}
+
+.qr-code{
+    width: 200px;
+    height: 200px;
+    background-image: url('/img/qr-code.png');
+    background-size: cover;
+}
+
 
 
 @media (max-width: 2560px) {
     .titulo h1{
         font-size: 60px;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     .content{
         display: flex;
         flex-direction: row;
-
     }
 
     .container{
         position: relative;
         width: 430px;
         height: 550px;
-
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -118,7 +129,7 @@ body{
         width: 95%;
         height: 280px;
     }
-    .tituloseg_protecao-ambiental{
+    .tituloseg_protecao-ambiental, .tituloseg_nossa-area{
         margin-top: 60px;
         margin-bottom: 30px;
     }
@@ -128,12 +139,23 @@ body{
         height: 95%;
     }
 
-    .container-nossa_area{
+    .container-nossa_area, .container-matrizes_3d{
         width: 960px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
+    .container-matrizes_3d{
+        flex-direction: row;
+    }
+    
+    .container-matrizes_3d div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
 }
 
@@ -141,7 +163,11 @@ body{
     .container p{
         font-size: .85em;
     }
+    .container-matrizes_3d{
+        flex-direction: column;
+    }
 }
+
 
 @media (max-width: 768px) {
     .container p{
@@ -171,10 +197,7 @@ body{
         width: 94%;
         height: 250px;
     }
-    .tituloseg_protecao-ambiental{
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
+
 }
 
 @media (max-width: 500px){
