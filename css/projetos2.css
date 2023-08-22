@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
 }
 
-.projetos{
+.projetos, .titulo{
     width: 100%;
 }
 
@@ -33,6 +33,10 @@ body{
 }
 .content{
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     position: relative;
@@ -42,8 +46,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top: 30px;
 }
 
