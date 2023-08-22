@@ -1,12 +1,10 @@
-
-
 body{
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .projetos, .protecao-ambiental, .nossa-area, .matrizes-3d, body{
@@ -177,7 +175,6 @@ body{
     .tituloseg{
         margin-top: 100px;
         margin-bottom: 100px;
-        font-size: 30px;
     }
 
     .protecao-ambiental, .nossa-area{
@@ -202,7 +199,6 @@ body{
     .tituloseg{
         margin-top: 100px;
         margin-bottom: 100px;
-        font-size: 20px;
     }
 
 
