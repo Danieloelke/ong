@@ -12,7 +12,7 @@ body{
     background-color: black;
 }
 
-.projetos, .titulo, .protecao-ambiental{
+.projetos, .titulo, .protecao-ambiental, .nossa-area{
     width: 100%;
 }
 
@@ -88,6 +88,11 @@ body{
     background-image: url('/img/turismo-ia.jpg');
 }
 
+.mapa{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(32, 32, 32);
+}
+
 
 
 @media (max-width: 2560px) {
@@ -116,6 +121,18 @@ body{
     .tituloseg_protecao-ambiental{
         margin-top: 60px;
         margin-bottom: 30px;
+    }
+
+    .mapa{
+        width: 95%;
+        height: 95%;
+    }
+
+    .container-nossa_area{
+        width: 960px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
