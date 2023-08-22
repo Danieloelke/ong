@@ -511,7 +511,7 @@
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
   .social-media a {
     width: 30px;
     height: 30px;
@@ -534,27 +534,9 @@
     height: 0px; 
 }
 
-.right-info h1 {
-  font-size: 60px;
-  margin-top: -500px;
-}
-.penetrate-blur h1 {
-  font-size: 60px;
-  margin-top: -500px;
-}
 
-.right-info h3{
-  transform: translateY(-670%);
-  font-size: 25px;
-}
-.right-info h4 {
-  transform: translateY(-1100%);
-  font-size: 13px;
-}
 
-.penetrate-blur_quemSomos h1, .right-info_quemSomos h1{
-  font-size: 50px;
-}
+
 
 
 
@@ -661,6 +643,34 @@
   
 }
 
+  @media (max-width: 1053px){
+    .penetrate-blur_quemSomos h1, .right-info_quemSomos h1{
+      font-size: 100px;
+    }
+  }
 
 
 
+@media (max-width: 768px) {
+  .right-info h1 {
+    font-size: 60px;
+    margin-top: -500px;
+  }
+  .penetrate-blur h1 {
+    font-size: 60px;
+    margin-top: -500px;
+  }
+
+  .right-info h3{
+    transform: translateY(-670%);
+    font-size: 25px;
+  }
+  .right-info h4 {
+    transform: translateY(-1100%);
+    font-size: 13px;
+  }
+
+  .penetrate-blur_quemSomos h1, .right-info_quemSomos h1{
+    font-size: 50px;
+  }
+}
