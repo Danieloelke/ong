@@ -1,12 +1,4 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
- 
-* {
-    box-sizing: border-box; /* Garante que o preenchimento e as bordas sejam incluídos na largura total */
-}
-  
+
 
 body{
     display: flex;
@@ -34,7 +26,6 @@ body{
 
 
 .titulo{
-    font-size: 70px;
     color: #fff;
     text-shadow: 
     0 1px 0 #ccc,
@@ -90,7 +81,6 @@ body{
 }
 
 .tituloseg{
-    font-size: 30px;
     color: #fff;
     text-shadow: 
     0 1px 0 #ccc,
@@ -168,15 +158,18 @@ body{
 }
 
 
-
+/*
 .exibe1, .exibe2, .exibe3, .exibe4, .exibe5, .exibe6, .exibe7, .exibe8, .exibe9, .exibe10, .exibe11{
     visibility: hidden;
-}
+}*/
 
 
 
 
-@media (max-width: 1920px) {
+@media (max-width: 2560px) {
+    .titulo{
+        font-size: 70px;
+    }
     .projetos{
         margin-top: 130px;
     }
@@ -184,6 +177,7 @@ body{
     .tituloseg{
         margin-top: 100px;
         margin-bottom: 100px;
+        font-size: 30px;
     }
 
     .protecao-ambiental, .nossa-area{
@@ -201,30 +195,20 @@ body{
 
 }
 
-
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+    .titulo{
+        font-size: 40px;
+    }
     .tituloseg{
         margin-top: 100px;
         margin-bottom: 100px;
+        font-size: 20px;
     }
 
-    .protecao-ambiental, .nossa-area{
-        margin-bottom: -250px;
-    }
 
- 
-    .matrizes-3d{
-        height: 1000px;
-    }
 
-    .content{
-        display: flex;
-        flex-direction: row;
-    }
 
-}
 
-@media (max-width: 999px) {
 
     .content{
         display: flex;
