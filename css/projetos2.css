@@ -119,7 +119,17 @@ body{
 
 }
 
+@media (max-width: 856px) {
+    .container p{
+        font-size: .85em;
+    }
+}
+
 @media (max-width: 768px) {
+    .container p{
+        font-size: 1em;
+    }
+
     .titulo h1{
         font-size: 30px;
         margin-top: 20%;
@@ -135,11 +145,8 @@ body{
     }
     .container{
         position: relative;
-        width: 90%;
         height: 600px;
-    }
-    .container p{
-        overflow-y: scroll;
+        width: 60%;
     }
 
     .img-content{
@@ -150,4 +157,11 @@ body{
         margin-top: 60px;
         margin-bottom: 30px;
     }
+}
+
+@media (max-width: 500px){
+    .container{
+        position: relative;
+        width: 90%;
+        }
 }
