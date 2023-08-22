@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
 }
 
-.projetos{
+.projetos, .titulo{
     width: 100%;
 }
 
