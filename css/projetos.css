@@ -159,11 +159,6 @@ body{
     box-shadow: 5px 5px 10px rgb(32, 32, 32);
 }
 
-
-
-
-
-
 .content_mapa-contato{
     height: 100%;
     display: flex;
@@ -238,6 +233,7 @@ body{
     .container-fale-conosco{
         display: flex;
         flex-direction: row;
+        margin-bottom: 80px;
     }
 
 
@@ -276,9 +272,12 @@ body{
         width: 90%;
     }
 
-
     .content_mapa-contato{
         width: 81%;
+    }
+
+    .mapa-contato{
+        margin-bottom: 40px;
     }
 }
 
@@ -327,11 +326,19 @@ body{
 
 
     .content_mapa-contato{
-        width: 95%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container-fale-conosco{
         height: 1001px;
+    }
+
+    .mapa-contato{
+        width: 95%;
+        margin-bottom: 30px;
     }
 }
 
