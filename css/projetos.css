@@ -99,12 +99,15 @@ body{
 }
 
 .qr-code{
-    width: 200px;
+    width: 150px;
     height: 200px;
     background-image: url('/img/qr-code.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
+.container-matrizes_3d{
+    margin-bottom: 50px;
+}
 
 
 @media (max-width: 2560px) {
