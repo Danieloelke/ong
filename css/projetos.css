@@ -119,11 +119,20 @@ body{
     justify-content: space-around;
 }
 
-.formulario-contato label{
+.formulario-contato label, .formulario-contato h2{
     color: white;
     font-weight: bold;
     
 }
+
+.formulario-contato input{
+    height: 30px;
+}
+
+
+
+
+
 
 .content_mapa-contato{
     width: 50%;
