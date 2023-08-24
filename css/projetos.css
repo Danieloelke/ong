@@ -126,7 +126,40 @@ body{
 }
 
 .formulario-contato input{
-    height: 30px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(122, 121, 121);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgb(32, 32, 32);
+    transition: .2s;
+}
+
+.formulario-contato input:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.formulario-contato input::placeholder{
+    padding-left: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.formulario-contato button{
+    height: 40px;
+    border-radius: 10px;
+    border: white;
+    font-weight: bolder;
+    transition: .4s;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.4);
+}
+
+.formulario-contato button:hover{
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 10px rgb(32, 32, 32);
 }
 
 
@@ -137,11 +170,21 @@ body{
 .content_mapa-contato{
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .mapa-contato{
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(32, 32, 32);
+    border: 1px solid rgba(255, 255, 255, .4);
+    transition: .2s;
+}
+
+.mapa-contato:hover{
+    border: 1px solid rgb(255, 255, 255);
 }
 
 
