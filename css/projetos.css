@@ -321,6 +321,18 @@ body{
         width: 95%;
     }
 
+    .formulario-contato{
+        width: 100%;
+    }
+
+
+    .content_mapa-contato{
+        width: 95%;
+    }
+
+    .container-fale-conosco{
+        height: 1001px;
+    }
 }
 
 @media (max-width: 500px){
