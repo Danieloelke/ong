@@ -130,6 +130,8 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 5px 5px 10px rgb(32, 32, 32);
     transition: .2s;
+    color: #E8FFCE;
+    padding-left: 10px;
 }
 
 .formulario-contato input:hover{
@@ -137,7 +139,6 @@ body{
 }
 
 .formulario-contato input::placeholder{
-    padding-left: 10px;
     color: white;
     font-weight: 500;
 }
