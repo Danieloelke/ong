@@ -105,8 +105,34 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
-.container-matrizes_3d{
-    margin-bottom: 50px;
+
+.container-fale-conosco{
+    display: flex;
+    flex-direction: row;
+}
+.formulario-contato{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.formulario-contato label{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.content_mapa-contato{
+    width: 50%;
+    height: 100%;
+}
+
+.mapa-contato{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -134,7 +160,7 @@ body{
         width: 95%;
         height: 280px;
     }
-    .tituloseg_protecao-ambiental, .tituloseg_nossa-area{
+    .tituloseg_protecao-ambiental, .tituloseg_nossa-area, .tituloseg_matrizes-3d, .tituloseg_fale-conosco{
         margin-top: 60px;
         margin-bottom: 30px;
     }
@@ -144,7 +170,7 @@ body{
         height: 95%;
     }
 
-    .container-nossa_area, .container-matrizes_3d{
+    .container-nossa_area, .container-matrizes_3d, .container-fale-conosco{
         width: 960px;
         display: flex;
         align-items: center;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/nova-conta.css">
     <title>Cadastro</title>
@@ -13,22 +14,30 @@
 <body>
     <!-- Cabeçalho -->
     <header class="header">
-        <a href="../index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
-    
+        <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
         <div class="social-media">
             <a href="#"><i class='bx bxl-twitter'></i></a>
             <a href="https://www.facebook.com/QuilomboRioVerde/"><i class='bx bxl-facebook' ></i></a>
             <a href="https://contate.me/quilomborioverdeguara"><i class='bx bxl-whatsapp' ></i></a>
             <a href="https://www.instagram.com/quilomborioverde/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='bx bxl-instagram' ></i></a>
         </div>
-    
-        <nav class="navbar">
-            <a href="../index.html">Inicio</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Projetos</a>
-            <a href="index.html" onclick="selecionarSecao('secao1')">Fale Conosco</a>
-            <a href="login.html">Área do Cliente</a>
-        </nav>
+        <div class="container-nav">
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <nav class="menu">
+              <ul>
+                <li><a href="/index.html" onclick="selecionarSecao('secao3')">Inicio</a></li>
+                <li><a href="/index.html" onclick="selecionarSecao('secao2')" >Quem Somos</a></li>
+                <li><a href="/html/projetos.html">Projetos</a></li>
+                <li><a>Fale Conosco</a></li>
+                <li><a href="/html/login.html">Área do Cliente</a></li>
+              </ul>
+            </nav>
+        </div>
     </header>
     <!-- Area de login -->
     <section class="login">
@@ -43,6 +52,17 @@
             <a href="/html/login.html">Login<i class='bx bx-right-arrow-alt'></i></a>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer-logo">Quilombo Do Rio Verde</div>
+        <ul class="footer-links">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/html/login.html">Área do Cliente</a></li>
+          <li><a href="/html/projetos.html">Projetos</a></li>
+        </ul>
+        <h3 id="credito">Daniel Cordeiro Oelke - Developer - Ux Designer</h3>
+        <a href="#" id="credito-site">www.danielcordeirooelke.com</a>
+        <h3 id="copy">&copy;ASSOCIACAO DA COMUNIDADE DE REMANESCENTES DE QUILOMBOS RURAIS DE RIO VERDE CNPJ:09.439.978/0001-29</h3>   
+    </footer>
     <script src="/js/script.js"></script>
 </body>
 </html>
