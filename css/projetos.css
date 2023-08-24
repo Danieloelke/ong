@@ -4,26 +4,20 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    background-image: url('/img/pal-alazao_blur.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.projetos, .titulo, .protecao-ambiental, .nossa-area{
     width: 100%;
 }
 
-.projetos, .protecao-ambiental, .nossa-area, .matrizes-3d, body{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('/img/pal-alazao_blur.jpg');
-}
-
-  
-
-
-.titulo{
+.titulo h1, .tituloseg{
+    text-align: center;
     color: #fff;
     text-shadow: 
     0 1px 0 #ccc,
@@ -40,29 +34,44 @@ body{
     0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
+
+.content{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     position: relative;
-    width: 430px;
-    height: 550px;
     background-color: #ffffff18;
     border-radius: 15px;
     box-shadow: 10px 10px 20px rgb(32, 32, 32);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 50px;
-    margin-right: 50px;
+    align-items: center;
     margin-top: 30px;
 }
 
+.container h3{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container p{
+    color: white;
+    text-align: justify;
+    padding: 25px;
+    height: 50%;
+}
+
 .img-content{
-    width: 400px;
-    height: 280px;
     background-size: cover;
     border-radius: 15px;
-    margin:15px;
     box-shadow: 10px 10px 20px rgb(32, 32, 32);
+    margin-top: 9px;
 }
+
 
 #img1{
     background-image: url('/img/quilombo-ia.jpg');
@@ -71,36 +80,6 @@ body{
 #img2{
     background-image: url('/img/campoverde-ia.jpg');
 }
-
-.container p{
-    color: white;
-    text-align: justify;
-    padding: 15px;
-}
-
-.tituloseg{
-    color: #fff;
-    text-shadow: 
-    0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    0 6px 1px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(0, 0, 0, 0.1),
-    0 1px 3px rgba(0, 0, 0, 0.3),
-    0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25),
-    0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15);
-}
-
-.container h3{
-    color: white;
-    text-align: center;
-    width: 100%;
-}
-
 #img3{
     background-image: url('/img/homem-campoverde-ia.jpg');
 
@@ -109,39 +88,13 @@ body{
     background-image: url('/img/turismo-ia.jpg');
 }
 
-.container-nossa_area, .container-matrizes_3d{
-    width: 960px;
-}
-
 .mapa{
-    width: 95%;
-    height: 95%;
-    border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 10px 10px 20px rgb(32, 32, 32);
-    align-items: center;
-    margin: 2.5%;
 }
-
-.container-matrizes_3d{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.container-matrizes_3d div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-
-}
-
 
 .arvore-3d{
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 10px 10px 20px rgb(32, 32, 32);
 }
 
@@ -149,71 +102,129 @@ body{
     width: 200px;
     height: 200px;
     background-image: url('/img/qr-code.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 50%;
-
+    background-size: cover;
 }
-
-
-/*
-.exibe1, .exibe2, .exibe3, .exibe4, .exibe5, .exibe6, .exibe7, .exibe8, .exibe9, .exibe10, .exibe11{
-    visibility: hidden;
-}*/
-
 
 
 
 @media (max-width: 2560px) {
-    .titulo{
-        font-size: 70px;
+    .arvore-3d{
+        margin-left: 20px;
     }
-    .projetos{
-        margin-top: 130px;
+    .titulo h1{
+        font-size: 60px;
+        margin-top: 10%;
     }
-
-    .tituloseg{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .protecao-ambiental, .nossa-area{
-        margin-bottom: -110px;
-    }
-
-    .matrizes-3d{
-        height: 1000px;
-    }
-
     .content{
         display: flex;
         flex-direction: row;
     }
 
+    .container{
+        position: relative;
+        width: 430px;
+        height: 550px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .img-content{
+        width: 95%;
+        height: 280px;
+    }
+    .tituloseg_protecao-ambiental, .tituloseg_nossa-area{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .mapa{
+        width: 95%;
+        height: 95%;
+    }
+
+    .container-nossa_area, .container-matrizes_3d{
+        width: 960px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-matrizes_3d{
+        flex-direction: row;
+    }
+    
+    .container-matrizes_3d div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
 
+@media (max-width: 856px) {
+    .container p{
+        font-size: .85em;
+    }
+    .container-matrizes_3d{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-matrizes_3d{
+        height: 925px;
+    }
+
+    .arvore-3d{
+        margin-left: 0px;
+        width: 95%;
+    }
+}
+
+
 @media (max-width: 768px) {
-    .titulo{
-        font-size: 40px;
-    }
-    .tituloseg{
-        margin-top: 100px;
-        margin-bottom: 100px;
+    .container p{
+        font-size: 1em;
     }
 
-
-
-
-
-
+    .titulo h1{
+        font-size: 30px;
+        margin-top: 20%;
+    }
     .content{
         display: flex;
         flex-direction: column;
+
+    }
+    .tituloseg{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .container{
+        position: relative;
+        height: 600px;
+        width: 60%;
     }
 
-    .container{
-        margin-bottom: 100px;
+    .img-content{
+        width: 94%;
+        height: 250px;
+    }
+
+    .container-matrizes_3d{
+        height: 925px;
+    }
+
+    .arvore-3d{
+        margin-left: 0px;
+        width: 95%;
     }
 
 }
 
+@media (max-width: 500px){
+    .container{
+        position: relative;
+        width: 90%;
+        }
+}
