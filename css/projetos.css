@@ -106,7 +106,6 @@ body{
     background-repeat: no-repeat;
 }
 
-
 .formulario-contato{
     display: flex;
     flex-direction: column;
@@ -119,7 +118,6 @@ body{
 .formulario-contato label, .formulario-contato h2{
     color: white;
     font-weight: bold;
-    
 }
 
 .formulario-contato input{
@@ -127,11 +125,12 @@ body{
     border-radius: 5px;
     outline: none;
     border: 1px solid rgb(122, 121, 121);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.493);
     box-shadow: 5px 5px 10px rgb(32, 32, 32);
     transition: .2s;
     color: #E8FFCE;
     padding-left: 10px;
+    backdrop-filter: blur(50px);
 }
 
 .formulario-contato input:hover{
@@ -178,7 +177,6 @@ body{
 .mapa-contato:hover{
     border: 1px solid rgb(255, 255, 255);
 }
-
 
 @media (max-width: 2560px) {
     .arvore-3d{
