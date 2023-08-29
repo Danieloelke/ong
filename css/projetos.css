@@ -178,6 +178,17 @@ body{
     border: 1px solid rgb(255, 255, 255);
 }
 
+.exibe1,
+.exibe2,
+.exibe3,
+.exibe4,
+.exibe5,
+.exibe6,
+.exibe7,
+.exibe8{
+    visibility: hidden;
+}
+
 @media (max-width: 2560px) {
     .arvore-3d{
         margin-left: 20px;

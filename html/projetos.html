@@ -30,9 +30,9 @@
             <nav class="menu">
                 <ul>
                     <li><a href="/index.html" onclick="selecionarSecao('secao3')">Inicio</a></li>
-                    <li><a href="/index.html" onclick="selecionarSecao('secao2')" >Quem Somos</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a>Fale Conosco</a></li>
+                    <li><a href="/index.html#secao2" >Quem Somos</a></li>
+                    <li><a href="/html/projetos.html">Projetos</a></li>
+                    <li><a href="/html/projetos.html#fale-conosco-cont">Fale Conosco</a></li>
                     <li><a href="/html/login.html">Área do Cliente</a></li>
                 </ul>
             </nav>
@@ -43,8 +43,8 @@
             <h1 class="exibe1">Projetos</h1>
         </div>
         <h2 class="tituloseg exibe2">Desenvolvimento Sustentável</h2>
-        <div class="content">
-            <div class="container exibe3">
+        <div class="content exibe3">
+            <div class="container">
                 <div id="img1" class="img-content"></div>
                 <div>
                     <h3>Desafios Unicos</h3>
@@ -57,7 +57,7 @@
                         por meio da colaboração e inovação da comunidade.</p>
                     </div>
             </div>
-            <div class="container exibe4">
+            <div class="container">
                 <div id="img2" class="img-content"></div>
                 <h3>Cultivo sustentavel</h3>
                 <p>A agricultura orgânica oferece oportunidades para a 
@@ -72,9 +72,9 @@
         </div>
     </section>
     <section class="protecao-ambiental">
-        <h2 class="tituloseg tituloseg_protecao-ambiental exibe5 ">Área de Proteção Ambiental e Comunidade Quilombola</h2>
-        <div class="content">
-            <div class="container exibe6">
+        <h2 class="tituloseg tituloseg_protecao-ambiental exibe4 ">Área de Proteção Ambiental e Comunidade Quilombola</h2>
+        <div class="content exibe5">
+            <div class="container">
                 <div id="img3" class="img-content"></div>
                 <h3>Pesquisa de Árvores e Plantas Nativas</h3>
                 <p>A região é rica em biodiversidade e a comunidade
@@ -83,7 +83,7 @@
                         nativas. Essas pesquisas são abertas para 
                         visitantes interessados.</p>
             </div>
-            <div class="container exibe7">
+            <div class="container">
                 <div id="img4" class="img-content"></div>
                 <h3>Cultivo sustentavel</h3>
                 <p>A comunidade quilombola oferece atividades turísticas 
@@ -93,18 +93,18 @@
             </div>
         </div>
     </section>
-    <section class="nossa-area">
-        <h2 class="tituloseg tituloseg_nossa-area exibe8">Nossa Área</h2>
-        <div class="content">
-            <div class="container container-nossa_area exibe9">
+    <section class="nossa-area exibe6">
+        <h2 class="tituloseg tituloseg_nossa-area exibe6">Nossa Área</h2>
+        <div class="content exibe6">
+            <div class="container container-nossa_area">
                 <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1k6wkzcRbKf-GTMvVffLBlAmnsYW6M9k&hl=pt-BR&ehbc=2E312F" width="640" height="480"></iframe>
             </div>
         </div>
     </section>
-    <section class="matrizes-3d">
-        <h2 class="tituloseg tituloseg_matrizes-3d exibe11">Matrizes Nativas em 3D</h2>
+    <section class="matrizes-3d exibe7">
+        <h2 class="tituloseg tituloseg_matrizes-3d">Matrizes Nativas em 3D</h2>
         <div class="content content_matrizes-3d">
-            <div class="container container-matrizes_3d exibe10 ">
+            <div class="container container-matrizes_3d">
                 <iframe class="arvore-3d" src="https://lumalabs.ai/embed/e56c766e-a8b3-4ea9-aaaf-e4e50bdb6d4e?mode=video&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="281" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
                 <div>
                     <h2 class="tituloseg">Matrizes 3D</h2>
@@ -114,10 +114,10 @@
             </div>
         </div>
     </section>
-    <section class="fale-conosco">
+    <section class="fale-conosco exibe8">
         <h2 class="tituloseg tituloseg_fale-conosco">Contate-nos</h2>
         <div class="content content_fale-conosco">
-            <div class="container container-fale-conosco">
+            <div class="container container-fale-conosco" id="fale-conosco-cont">
                 <form action="https://formsubmit.co/15a47ba90e702fc5ae4fc7447c782e95" method="POST" class="formulario-contato">
                     <h2>Fale Conosco</h2>
                     <label for="email">Email:</label>
@@ -129,7 +129,6 @@
                     <label for="localidade">Localidade:</label>
                     <input type="local" id="localidade" name="Localidade" placeholder="Insira Sua Localidade" required>
                     <button type="submit">Enviar</button>
-
                     <input type="hidden" name="_subject" value="Novo Contato">
                     <input type="text" name="_honey" style="display:none">
                     <input type="hidden" name="_cactcha" value="false">
@@ -139,6 +138,7 @@
                 </div>
             </div>
         </div>
+        <script src="/js/projetos.js"></script>
     </section>
     <footer class="footer">
         <div class="footer-logo">Quilombo Do Rio Verde</div>
