@@ -2,9 +2,9 @@
 .footer {
     background-size: cover;
     color: white;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
-    height: 200px;
+    height: 220px;
     width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/african.png');
     background-size: cover;
@@ -13,7 +13,7 @@
   .footer-logo {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
   }
 
   .footer-links {

@@ -9,140 +9,108 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
-
-<header class="header">
-    <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
-    <div class="social-media">
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="https://www.facebook.com/QuilomboRioVerde/"><i class='bx bxl-facebook' ></i></a>
-        <a href="https://contate.me/quilomborioverdeguara"><i class='bx bxl-whatsapp' ></i></a>
-        <a href="https://www.instagram.com/quilomborioverde/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='bx bxl-instagram' ></i></a>
-    </div>
-    <div class="container-nav">
-        <input type="checkbox" id="checkbox-menu">
-        <label for="checkbox-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-        <nav class="menu">
-          <ul>
-            <li><a onclick="selecionarSecao('secao3')">Inicio</a></li>
-            <li><a onclick="selecionarSecao('secao2')">Quem Somos</a></li>
-            <li><a href="/html/projetos.html">Projetos</a></li>
-            <li><a onclick="selecionarSecao('secao1')">Fale Conosco</a></li>
-            <li><a href="login.html">Área do Cliente</a></li>
-          </ul>
-        </nav>
-    </div>
-</header>
-<section class="banner">
-    <div class="slider">
-        <!-- Slide Quilombo -->
-        <div class="slide active" id="secao3">
-            <img src="/img/riodocedro2.jpg" alt="passaro-azul">
+    <header class="header">
+        <a href="index.html" class="logo"><img id="logo-brasil" src="/img/brasil-icon.png" alt="logo-brasil"></a>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.facebook.com/QuilomboRioVerde/"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://contate.me/quilomborioverdeguara"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.instagram.com/quilomborioverde/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='bx bxl-instagram' ></i></a>
+        </div>
+        <div class="container-nav">
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="menu">
+                <ul>
+                    <li><a onclick="selecionarSecao('secao3')">Inicio</a></li>
+                    <li><a onclick="selecionarSecao('secao2')">Quem Somos</a></li>
+                    <li><a href="/html/projetos.html">Projetos</a></li>
+                    <li><a onclick="selecionarSecao('secao1')">Fale Conosco</a></li>
+                    <li><a href="login.html">Área do Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="slider">
+            <!-- Slide Quilombo -->
+            <div class="slide active" id="secao3">
+                <img src="/img/riodocedro2.jpg" alt="passaro-azul">
+                <div class="left-info">
+                    <div class="penetrate-blur">
+                        <h1>Quilo</h1>
+                    </div>
+                    <div class="content">
+                        <h3>Nossa História</h3>
+                        <p>O Quilombo Rio Verde, em Guaraqueçaba-PR,
+                            foi certificado como remanescente de quilombo 
+                            pela Fundação Cultural Palmares.
+                        </p>
+                        <button class="btn" onclick="openPopupQuilombo()">Mais Informações</button>
+                    </div>
+                </div>
+                <div class="right-info">
+                    <h1><strong class="letraM">m</strong><strong class="letraB">b</strong><strong class="letraO">o</strong></h1>
+                    <h3>Rio Verde</h3>
+                    <h4>Guaraqueçaba - Paraná</h4>
+                </div>
+                <div class="overlay" id="overlay"></div>
+                <div class="popup" id="myPopupQuilombo">
+                    <button class="closePopup closePopupQuilombo" onclick="closePopupQuilombo()"><i class='bx bxs-x-square closePopupIcon'></i></button>
+                    <h2>Nossa História</h2><br>
+                    <p>
+                        O Quilombo do Rio Verde está localizado em Guaraqueçaba, município localizado no litoral do estado do Paraná, no Brasil. A comunidade remonta ao período da escravidão no Brasil, quando fugitivos e libertos buscavam refúgio e liberdade em áreas remotas e de difícil acesso, como a região da Mata Atlântica.<br><br>
+                        A história do Quilombo do Rio Verde remonta ao século XIX, quando um grupo de pessoas negras fugiu da escravidão nas fazendas e se estabeleceu na região, em meio à densa vegetação da Mata Atlântica e próxim
+                        Ao longo dos anos, a comunidade do Quilombo do Rio Verde foi crescendo e se desenvolvendo. Os quilombolas, descendentes desses primeiros habitantes, construíram casas, plantaram alimentos e criaram uma vida comunitária baseada na solidariedade e no trabalho coletivo. A agricultura de subsistência, a pesca e a coleta de produtos da floresta são atividades importantes para a sobrevivência da comunidade.<br><br>
+                        Apesar dos desafios históricos e das dificuldades enfrentadas, os quilombolas do Rio Verde mantiveram sua identidade cultural e lutaram pela preservação de suas terras e pelo reconhecimento de seus direitos. Em 2006, a comunidade recebeu o título de território quilombola, reconhecendo oficialmente sua ancestralidade, sua história e sua conexão com o local.<br><br>
+                        Hoje em dia, o Quilombo do Rio Verde recebe visitantes interessados em conhecer sua história, sua cultura e suas tradições. A comunidade realiza atividades de educação ambiental, turismo comunitário e valorização de seus saberes tradicionais. Além disso, o quilombo se envolve em projetos de preservação da natureza e da Mata Atlântica, buscando conciliar o desenvolvimento sustentável com a manutenção de suas tradições.<br><br>
+                        O Quilombo do Rio Verde é um exemplo vivo da resistência e da luta pela liberdade, além de representar um importante patrimônio cultural e histórico do Brasil. Sua história nos lembra da importância de valorizar e preservar as culturas tradicionais e de reconhecer os direitos das comunidades quilombolas, garantindo sua inclusão e o respeito à sua identidade.<br><br>
+                    </p>
+                </div>
+                
+            </div>
+        <!-- Slide Quem somos -->
+        <div class="slide quem-somos" id="secao2">
+            <img src="/img/pal-alazao.jpg" alt="china">
             <div class="left-info">
-                <div class="penetrate-blur">
-                    <h1>Quilo</h1>
+                <div class="penetrate-blur penetrate-blur_quemSomos">
+                    <h1>Quem</h1>
                 </div>
                 <div class="content">
-                    <h3>Nossa História</h3>
-                    <p>O Quilombo Rio Verde, em Guaraqueçaba-PR,
-                         foi certificado como remanescente de quilombo 
-                         pela Fundação Cultural Palmares.
+                    <h3>Sobre Nós</h3>
+                    <p>Entre a exuberância da Mata Atlântica, surge o Quilombo Rio Verde,
+                        um refúgio ancestral de sustentabilidade e cultura. Suas 25 famílias 
+                        preservam 99% dos 5.300 hectares de terra com orgulho e respeito à natureza. 
+                        Um cativante exemplo de harmonia entre o ser humano e o meio ambiente, onde 
+                        tradição e biodiversidade se entrelaçam em perfeita sintonia. Descubra o 
+                    encanto desse lugar único, uma fonte inspiradora de vida e história.
                     </p>
-                    <button class="btn" onclick="openPopupQuilombo()">Mais Informações</button>
+                    <a href="/html/galeria.html" class="btn">Galeria</a>
                 </div>
             </div>
-            <div class="right-info">
-                <h1><strong class="letraM">m</strong><strong class="letraB">b</strong><strong class="letraO">o</strong></h1>
-                <h3>Rio Verde</h3>
-                <h4>Guaraqueçaba - Paraná</h4>
+            <div class="right-info right-info_quemSomos">
+                <h1>Somos</h1>
             </div>
-            <div class="overlay" id="overlay"></div>
-            <div class="popup" id="myPopupQuilombo">
-                <button class="closePopup closePopupQuilombo" onclick="closePopupQuilombo()"><i class='bx bxs-x-square closePopupIcon'></i></button>
-                <h2>Nossa História</h2><br>
-                <p>
-                    O Quilombo do Rio Verde está localizado em Guaraqueçaba, município localizado no litoral do estado do Paraná, no Brasil. A comunidade remonta ao período da escravidão no Brasil, quando fugitivos e libertos buscavam refúgio e liberdade em áreas remotas e de difícil acesso, como a região da Mata Atlântica.<br><br>
-                    A história do Quilombo do Rio Verde remonta ao século XIX, quando um grupo de pessoas negras fugiu da escravidão nas fazendas e se estabeleceu na região, em meio à densa vegetação da Mata Atlântica e próxim
-                    Ao longo dos anos, a comunidade do Quilombo do Rio Verde foi crescendo e se desenvolvendo. Os quilombolas, descendentes desses primeiros habitantes, construíram casas, plantaram alimentos e criaram uma vida comunitária baseada na solidariedade e no trabalho coletivo. A agricultura de subsistência, a pesca e a coleta de produtos da floresta são atividades importantes para a sobrevivência da comunidade.<br><br>
-                    Apesar dos desafios históricos e das dificuldades enfrentadas, os quilombolas do Rio Verde mantiveram sua identidade cultural e lutaram pela preservação de suas terras e pelo reconhecimento de seus direitos. Em 2006, a comunidade recebeu o título de território quilombola, reconhecendo oficialmente sua ancestralidade, sua história e sua conexão com o local.<br><br>
-                    Hoje em dia, o Quilombo do Rio Verde recebe visitantes interessados em conhecer sua história, sua cultura e suas tradições. A comunidade realiza atividades de educação ambiental, turismo comunitário e valorização de seus saberes tradicionais. Além disso, o quilombo se envolve em projetos de preservação da natureza e da Mata Atlântica, buscando conciliar o desenvolvimento sustentável com a manutenção de suas tradições.<br><br>
-                    O Quilombo do Rio Verde é um exemplo vivo da resistência e da luta pela liberdade, além de representar um importante patrimônio cultural e histórico do Brasil. Sua história nos lembra da importância de valorizar e preservar as culturas tradicionais e de reconhecer os direitos das comunidades quilombolas, garantindo sua inclusão e o respeito à sua identidade.<br><br>
-                </p>
             </div>
-            
-        </div>
-    <!-- Slide Quem somos -->
-    <div class="slide quem-somos" id="secao2">
-        <img src="/img/pal-alazao.jpg" alt="china">
-        <div class="left-info">
-            <div class="penetrate-blur penetrate-blur_quemSomos">
-                <h1>Quem</h1>
-            </div>
-            <div class="content">
-                <h3>Sobre Nós</h3>
-                <p>Entre a exuberância da Mata Atlântica, surge o Quilombo Rio Verde,
-                     um refúgio ancestral de sustentabilidade e cultura. Suas 25 famílias 
-                     preservam 99% dos 5.300 hectares de terra com orgulho e respeito à natureza. 
-                     Um cativante exemplo de harmonia entre o ser humano e o meio ambiente, onde 
-                     tradição e biodiversidade se entrelaçam em perfeita sintonia. Descubra o 
-                   encanto desse lugar único, uma fonte inspiradora de vida e história.
-                </p>
-                <a href="/html/galeria.html" class="btn">Galeria</a>
-            </div>
-        </div>
-        <div class="right-info right-info_quemSomos">
-            <h1>Somos</h1>
-        </div>
         </div>
     </div>
-</div>
-    <!-- Fale Conosco --> 
-    <!--
-    <div class="slide contatos" id="secao1">
-        <img src="/img/montanhas.jpg" alt="china">
-        <div class="left-info left-info-contato">
-            <div class="penetrate-blur">
-                <h1>Cont</h1>
-            </div>
-        
-        </div>
-       
-        <div class="right-info right-info-contato">
-            <h1>atos</h1>
-            <div class="content dados-contato">
-                <ul>
-                    <li><i class='location bx bx-location-plus'></i></li>
-                    <li>Estrada do Batuva n°S/N | Localidade do Rio Verde <br>CEP:83.390-000 | Guaraqueçaba-Paraná</li>
-                </ul>
-                <ul>
-                    <li><i class='location bx bx-phone-incoming'></i></li>
-                    <li>(00)0 0000-0000 <br>(00)0 0000-0000</li>
-                </ul>
-
-                <ul>
-                    <li><i class='location bx bx-envelope' ></i></li>
-                    <li>quilomborioverde@gmail.com</li>
-                </ul>
-            </div>
-        </div>
--->
     </div>
-</div>
-    <!-- Botoêes de navegação -->
-    <div class="navigation">
-        <span class="prev-btn">
-            <i class='bx bx-chevron-left'></i>
-        </span>
-        <span class="next-btn">
-            <i class='bx bx-chevron-right' ></i>
-        </span>
     </div>
-</section>
+        <!-- Botoêes de navegação -->
+        <div class="navigation">
+            <span class="prev-btn">
+                <i class='bx bx-chevron-left'></i>
+            </span>
+            <span class="next-btn">
+                <i class='bx bx-chevron-right' ></i>
+            </span>
+        </div>
+    </section>
 
     <script src="/js/script.js"></script>
 </body>
