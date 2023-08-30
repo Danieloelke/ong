@@ -453,6 +453,7 @@ body{
         width: 95%;
         margin-top: 85px;
     }
+
 }
 
 @media (max-width: 500px){
@@ -476,8 +477,8 @@ body{
             margin-top: -50px;
         }
 
-        .texto-doacoes{
+        .texto-doacoes p{
             width: 95%;
-
+            margin-top: -150px;
         }
 }
