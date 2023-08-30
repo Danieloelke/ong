@@ -366,6 +366,12 @@ body{
     #img-doacoes{
         height: 50%;
         width: 95%;
+        margin-top: -100px;
+    }
+
+    
+    #titulo-doacoes{
+        margin-top: -50px;
     }
 
 
@@ -445,6 +451,7 @@ body{
     #img-doacoes{
         height: 25%;
         width: 95%;
+        margin-top: 85px;
     }
 }
 
@@ -452,5 +459,20 @@ body{
     .container{
         position: relative;
         width: 90%;
+        }
+
+        .container-doacoes{
+            height: 800px;
+        }
+
+        #img-doacoes{
+            height: 40%;
+            width: 95%;
+            margin-bottom: 10px;
+
+        }
+
+        #titulo-doacoes{
+            margin-top: -50px;
         }
 }
