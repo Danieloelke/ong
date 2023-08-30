@@ -479,15 +479,17 @@ body{
             height: 25%;
             width: 95%;
             margin-bottom: 10px;
-
         }
 
         #titulo-doacoes{
             margin-top: -50px;
         }
 
+        .texto-doacoes{
+            width: 100%;
+        }
         .texto-doacoes p{
-            width: 95%;
+            width: 100%;
             margin-top: -150px;
         }
 
