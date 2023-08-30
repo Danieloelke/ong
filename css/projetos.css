@@ -189,7 +189,39 @@ body{
     visibility: hidden;
 }
 
-@media (max-width: 2560px) {
+
+
+#img-doacoes{
+    height: 90%;
+    width: 40%;
+    padding: 10%;
+    background-image: url('/img/mudas-doacoes.jpeg');
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgb(32, 32, 32);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 3000px) {
     .arvore-3d{
         margin-left: 20px;
     }
@@ -223,7 +255,7 @@ body{
         height: 95%;
     }
 
-    .container-nossa_area, .container-matrizes_3d, .container-fale-conosco{
+    .container-nossa_area, .container-matrizes_3d, .container-fale-conosco, .container-doacoes{
         width: 960px;
         display: flex;
         align-items: center;
@@ -249,6 +281,37 @@ body{
 
     .content_mapa-contato{
         width: 50%;
+    }
+
+    .container-doacoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .texto-doacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        height: 100%;
+    }
+
+    #titulo-doacoes{
+        font-size: 2em;
+    }
+
+    #sub_titulo-doacoes{
+        font-size: 1em;
+        margin-top: -70px;
+    }
+    
+    .texto-doacoes p {
+        font-weight: 400;
+        margin-top: -90px;
     }
 
 }
@@ -289,6 +352,33 @@ body{
     .mapa-contato{
         margin-bottom: 40px;
     }
+
+    .container-doacoes{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .texto-doacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+        height: 50%;
+    }
+
+    #img-doacoes{
+        height: 50%;
+        width: 95%;
+        padding: 10%;
+        background-image: url('/img/mudas-doacoes.jpeg');
+        background-size: cover;
+        border-radius: 15px;
+        box-shadow: 10px 10px 20px rgb(32, 32, 32);
+    }
+
+
+
 }
 
 
