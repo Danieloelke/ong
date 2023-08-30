@@ -359,10 +359,6 @@ body{
     }
 
     .texto-doacoes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
         width: 95%;
         height: 50%;
     }
@@ -370,11 +366,6 @@ body{
     #img-doacoes{
         height: 50%;
         width: 95%;
-        padding: 10%;
-        background-image: url('/img/mudas-doacoes.jpeg');
-        background-size: cover;
-        border-radius: 15px;
-        box-shadow: 10px 10px 20px rgb(32, 32, 32);
     }
 
 
@@ -439,6 +430,21 @@ body{
     .mapa-contato{
         width: 95%;
         margin-bottom: 30px;
+    }
+
+    .container-doacoes{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .texto-doacoes{
+        width: 95%;
+        height: 65%;
+    }
+
+    #img-doacoes{
+        height: 25%;
+        width: 95%;
     }
 }
 
