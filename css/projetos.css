@@ -475,4 +475,9 @@ body{
         #titulo-doacoes{
             margin-top: -50px;
         }
+
+        .texto-doacoes{
+            width: 95%;
+
+        }
 }
